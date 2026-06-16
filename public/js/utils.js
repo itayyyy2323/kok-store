@@ -10,9 +10,19 @@ const API_BASE_URL = '';
  */
 function getPrice(kit) {
   if (!kit) return 0;
-  if (kit.isWorldCupSpecial) return 79.99;
-  if (kit.year >= 2022) return 69.99;
-  return 79.99;
+  let basePrice = 79.99;
+  
+  if (kit.isWorldCupSpecial) {
+    basePrice = 79.99;
+  } else if (kit.year >= 2022) {
+    basePrice = 69.99;
+  }
+  
+  if (kit.customName || kit.customNumber) {
+    basePrice += 10;
+  }
+  
+  return basePrice;
 }
 
 /**
@@ -60,8 +70,15 @@ function createProductCard(kit) {
   }
 
   const imageHtml = imageUrl 
-    ? `<img src="${imageUrl}" alt="${kit.name}" loading="lazy" onerror="this.onerror=null; this.src=''; this.parentElement.innerHTML='<div class=\\'placeholder-img\\'>⚽</div>';">`
-    : `<div class="placeholder-img">⚽</div>`;
+    ? `<img src="${imageUrl}" alt="${kit.name}" loading="lazy" onerror="this.onerror=null; this.style.display='none'; this.nextElementSibling.style.display='flex';">
+       <div class="placeholder-fallback" style="display:none; background:var(--bg-secondary); width:100%; height:100%; align-items:center; justify-content:center; flex-direction:column;">
+         <span style="font-size:3rem;">⚽</span>
+         <span style="margin-top:10px; font-weight:bold; color:var(--text-muted);">${kit.team}</span>
+       </div>`
+    : `<div style="background:var(--bg-secondary); width:100%; height:100%; display:flex; align-items:center; justify-content:center; flex-direction:column;">
+         <span style="font-size:3rem;">⚽</span>
+         <span style="margin-top:10px; font-weight:bold; color:var(--text-muted);">${kit.team}</span>
+       </div>`;
 
   return `
     <a href="product.html?id=${kit.id}" class="product-card" data-id="${kit.id}">

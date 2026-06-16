@@ -22,22 +22,26 @@ function renderCheckoutSummary() {
   if (!list) return;
 
   list.innerHTML = cart.map(item => {
-    const price = getPrice(item);
     const imageUrl = item.image ? `images/${item.image}` : null;
     const imgHtml = imageUrl 
       ? `<img src="${imageUrl}" alt="${item.name}">`
       : `<div class="placeholder-img" style="background:var(--bg-secondary); width:100%; height:100%; display:flex; align-items:center; justify-content:center;">⚽</div>`;
 
+    const customizationText = (item.customName || item.customNumber) 
+      ? `<div style="color:var(--accent); font-size: 0.85rem; margin-top: 2px;">הדפסה: ${item.customName || ''} ${item.customNumber || ''}</div>` 
+      : '';
+
     return `
-      <div class="checkout-order-item">
-        <div class="checkout-order-item-image">
+      <div style="display: flex; gap: 15px; margin-bottom: 15px;">
+        <div style="width: 60px; height: 80px; border-radius: var(--radius-sm); overflow: hidden; flex-shrink: 0; background: var(--bg-secondary);">
           ${imgHtml}
         </div>
-        <div class="checkout-order-item-info">
-          <div class="checkout-order-item-name">${item.name}</div>
-          <div class="checkout-order-item-meta">מידה: ${item.size} | כמות: ${item.quantity}</div>
+        <div style="flex: 1;">
+          <h4 style="font-size: 0.95rem; margin-bottom: 5px;">${item.name}</h4>
+          <div style="color: var(--text-secondary); font-size: 0.85rem;">מידה: ${item.size} | כמות: ${item.quantity}</div>
+          ${customizationText}
         </div>
-        <div class="checkout-order-item-price">${formatPrice(price * item.quantity)}</div>
+        <div style="font-weight: 600;">${formatPrice(getPrice(item) * item.quantity)}</div>
       </div>
     `;
   }).join('');

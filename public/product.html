@@ -103,13 +103,34 @@
                         <a href="#" style="font-size:var(--font-size-xs); color:var(--text-secondary); text-decoration:underline; display:inline-block; margin-top:8px;">מדריך מידות</a>
                     </div>
 
-                    <div class="product-actions">
-                        <div class="qty-control">
-                            <button id="qtyPlus">+</button>
-                            <span id="qtyDisplay">1</span>
-                            <button id="qtyMinus">-</button>
+                    <div class="product-actions mt-4">
+                        
+                        <!-- Personalization Section -->
+                        <div class="personalization-box mb-4">
+                            <label class="personalization-header">
+                                <input type="checkbox" id="addPersonalization">
+                                <span style="font-weight: 600;">הוסף שם ומספר (+10₪)</span>
+                            </label>
+                            <div class="personalization-content" id="personalizationContent">
+                                <div class="form-group">
+                                    <label for="customName">שם על החולצה (אנגלית/עברית)</label>
+                                    <input type="text" id="customName" class="form-input" placeholder="לדוגמה: MESSI" maxlength="15">
+                                </div>
+                                <div class="form-group">
+                                    <label for="customNumber">מספר (1-99)</label>
+                                    <input type="number" id="customNumber" class="form-input" placeholder="10" min="1" max="99">
+                                </div>
+                            </div>
                         </div>
-                        <button class="btn btn-primary btn-lg" id="addToCartBtn" disabled>הוסף לסל</button>
+
+                        <div style="display: flex; gap: 15px; align-items: stretch; height: 50px;">
+                            <div class="qty-control">
+                                <button id="qtyPlus">+</button>
+                                <span id="qtyDisplay">1</span>
+                                <button id="qtyMinus">-</button>
+                            </div>
+                            <button class="btn btn-primary" id="addToCartBtn" style="flex: 1; font-size: 1.1rem; font-weight: 700;">הוסף לסל</button>
+                        </div>
                     </div>
 
                     <div class="mt-4" style="color:var(--text-secondary); font-size:var(--font-size-sm); line-height:var(--line-height-relaxed);">
