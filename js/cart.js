@@ -42,13 +42,19 @@ function updateCartBadge() {
   }
 }
 
-function addToCart(product, size, quantity = 1) {
+function addToCart(product, size, quantity = 1, customName = null, customNumber = null) {
   if (!size) {
     showToast('נא לבחור מידה', 'error');
     return false;
   }
 
-  const existingItemIndex = cart.findIndex(item => item.id === product.id && item.size === size);
+  // Check if we have the EXACT same item (same product, same size, same customization)
+  const existingItemIndex = cart.findIndex(item => 
+    item.id === product.id && 
+    item.size === size && 
+    item.customName === customName && 
+    item.customNumber === customNumber
+  );
   
   if (existingItemIndex !== -1) {
     cart[existingItemIndex].quantity += quantity;
@@ -63,6 +69,8 @@ function addToCart(product, size, quantity = 1) {
       isWorldCupSpecial: product.isWorldCupSpecial,
       size: size,
       quantity: quantity,
+      customName: customName,
+      customNumber: customNumber,
       image: product.images && product.images[0] ? product.images[0] : null
     });
   }
@@ -202,6 +210,10 @@ function renderCartDrawerItems() {
       ? `<img src="${imageUrl}" alt="${item.name}" loading="lazy">`
       : `<div class="placeholder-img" style="background:var(--bg-secondary); width:100%; height:100%; display:flex; align-items:center; justify-content:center;">⚽</div>`;
 
+    const customizationText = (item.customName || item.customNumber) 
+      ? `<div class="cart-drawer-item-meta" style="color:var(--accent);">הדפסה: ${item.customName || ''} ${item.customNumber || ''}</div>` 
+      : '';
+
     return `
       <div class="cart-drawer-item">
         <div class="cart-drawer-item-img">
@@ -215,6 +227,7 @@ function renderCartDrawerItems() {
             </button>
           </div>
           <div class="cart-drawer-item-meta">מידה: ${item.size}</div>
+          ${customizationText}
           <div class="cart-drawer-item-bottom">
             <div class="qty-control" style="transform: scale(0.85); transform-origin: right center;">
               <button onclick="updateQuantity(${index}, 1)">+</button>

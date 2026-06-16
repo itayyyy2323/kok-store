@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KOK – King of Kits | חולצות</title>
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/pages.css">
+</head>
+<body data-theme="dark">
+
+    <!-- Navbar (Same as index.html) -->
+    <nav class="navbar" id="navbar">
+        <div class="container navbar-content">
+            <a href="index.html" class="navbar-logo">
+                <span class="logo-text">KOK</span>
+                <span class="logo-subtitle">KING OF KITS</span>
+            </a>
+            <div class="navbar-links" id="navLinks">
+                <a href="index.html">ראשי</a>
+                <a href="products.html" class="active">חולצות</a>
+                <a href="products.html?league=premier-league">פרמייר ליג</a>
+                <a href="products.html?league=la-liga">לה ליגה</a>
+                <a href="products.html?worldcup=true">מונדיאל</a>
+                <a href="products.html?retro=true">רטרו</a>
+            </div>
+            <div class="navbar-actions">
+                <button class="btn-icon theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                    <svg viewBox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+                </button>
+                <button class="btn-icon cart-btn" id="cartBtn" aria-label="Cart">
+                    <svg viewBox="0 0 24 24"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
+                    <span class="cart-count" id="cartCount">0</span>
+                </button>
+                <button class="btn-icon mobile-menu-btn" id="mobileMenuBtn" aria-label="Menu">
+                    <svg viewBox="0 0 24 24"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Cart Drawer -->
+    <div class="cart-overlay" id="cartOverlay"></div>
+    <div class="cart-drawer" id="cartDrawer">
+        <div class="cart-drawer-header">
+            <h3 class="cart-drawer-title">סל הקניות</h3>
+            <button class="cart-drawer-close" id="closeCartBtn">
+                <svg viewBox="0 0 24 24"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+            </button>
+        </div>
+        <div class="cart-drawer-items" id="cartItemsList">
+            <!-- Items will be injected here -->
+        </div>
+        <div class="cart-drawer-footer">
+            <div class="cart-drawer-total">
+                <span>סה"כ:</span>
+                <span class="price" id="cartSubtotal">₪0.00</span>
+            </div>
+            <a href="cart.html" class="btn btn-primary btn-block">מעבר לעגלה</a>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <main class="products-page">
+        <div class="container">
+            
+            <div class="breadcrumbs mb-3">
+                <a href="index.html">ראשי</a>
+                <span class="separator">/</span>
+                <span id="breadcrumbCurrent">כל החולצות</span>
+            </div>
+
+            <div class="products-layout">
+                
+                <!-- Filters Sidebar -->
+                <aside class="filter-sidebar" id="filterSidebar">
+                    <div class="filter-header hide-desktop mb-3">
+                        <h3>סינון מוצרים</h3>
+                        <button class="btn-icon" id="closeFiltersBtn">
+                            <svg viewBox="0 0 24 24"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                        </button>
+                    </div>
+
+                    <div class="filter-group">
+                        <h4 class="filter-title">ליגה / קטגוריה</h4>
+                        <div class="filter-options">
+                            <label class="filter-checkbox">
+                                <input type="radio" name="league" value="" checked>
+                                <span>הכל</span>
+                            </label>
+                            <label class="filter-checkbox">
+                                <input type="radio" name="league" value="premier-league">
+                                <span>פרמייר ליג</span>
+                            </label>
+                            <label class="filter-checkbox">
+                                <input type="radio" name="league" value="la-liga">
+                                <span>לה ליגה</span>
+                            </label>
+                            <label class="filter-checkbox">
+                                <input type="radio" name="league" value="serie-a">
+                                <span>סריה A</span>
+                            </label>
+                            <label class="filter-checkbox">
+                                <input type="radio" name="league" value="bundesliga">
+                                <span>בונדסליגה</span>
+                            </label>
+                            <label class="filter-checkbox">
+                                <input type="radio" name="league" value="ligue-1">
+                                <span>ליג 1</span>
+                            </label>
+                            <label class="filter-checkbox">
+                                <input type="radio" name="worldcup" value="true">
+                                <span>מונדיאל (נבחרות)</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="filter-group">
+                        <h4 class="filter-title">סוג חולצה</h4>
+                        <div class="filter-options">
+                            <label class="filter-checkbox">
+                                <input type="radio" name="type" value="" checked>
+                                <span>הכל</span>
+                            </label>
+                            <label class="filter-checkbox">
+                                <input type="radio" name="type" value="home">
+                                <span>בית</span>
+                            </label>
+                            <label class="filter-checkbox">
+                                <input type="radio" name="type" value="away">
+                                <span>חוץ</span>
+                            </label>
+                            <label class="filter-checkbox">
+                                <input type="radio" name="type" value="third">
+                                <span>שלישית</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="filter-group">
+                        <h4 class="filter-title">אוספים מיוחדים</h4>
+                        <div class="filter-options">
+                            <label class="filter-checkbox">
+                                <input type="checkbox" name="retro" value="true">
+                                <span>קולקציית רטרו</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <button class="btn btn-secondary btn-block mt-4" id="clearFiltersBtn">נקה סינונים</button>
+                </aside>
+
+                <!-- Products Main Area -->
+                <div class="products-main">
+                    
+                    <div class="products-toolbar">
+                        <button class="filter-toggle-btn" id="openFiltersBtn">
+                            <svg viewBox="0 0 24 24"><polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"></polygon></svg>
+                            סינון
+                        </button>
+                        
+                        <div class="products-count" id="productsCount">
+                            מציג <strong>0</strong> מוצרים
+                        </div>
+                        
+                        <div class="products-sort">
+                            <label for="sortSelect">מיון לפי:</label>
+                            <select id="sortSelect" class="form-select">
+                                <option value="featured">מומלצים</option>
+                                <option value="price-asc">מחיר: נמוך לגבוה</option>
+                                <option value="price-desc">מחיר: גבוה לנמוך</option>
+                                <option value="year-desc">הכי חדש</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="product-grid" id="productGrid">
+                        <!-- Skeletons while loading -->
+                        <div class="skeleton skeleton-card" style="height: 350px;"></div>
+                        <div class="skeleton skeleton-card" style="height: 350px;"></div>
+                        <div class="skeleton skeleton-card" style="height: 350px;"></div>
+                        <div class="skeleton skeleton-card" style="height: 350px;"></div>
+                        <div class="skeleton skeleton-card" style="height: 350px;"></div>
+                        <div class="skeleton skeleton-card" style="height: 350px;"></div>
+                        <div class="skeleton skeleton-card" style="height: 350px;"></div>
+                        <div class="skeleton skeleton-card" style="height: 350px;"></div>
+                    </div>
+
+                    <div class="text-center mt-5" id="loadMoreContainer" style="display: none;">
+                        <button class="btn btn-secondary btn-lg" id="loadMoreBtn">טען עוד</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer (Same as index.html) -->
+    <footer class="footer mt-5">
+        <div class="container">
+            <div class="footer-bottom">
+                <p>&copy; 2026 KOK - King of Kits. כל הזכויות שמורות.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/utils.js"></script>
+    <script src="js/cart.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/analytics.js"></script>
+    <script src="js/products.js"></script>
+</body>
+</html>

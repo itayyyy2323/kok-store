@@ -37,13 +37,48 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
+  // Personalization toggle
+  const addPersonalization = document.getElementById('addPersonalization');
+  const personalizationContent = document.getElementById('personalizationContent');
+  
+  if (addPersonalization && personalizationContent) {
+    addPersonalization.addEventListener('change', (e) => {
+      if (e.target.checked) {
+        personalizationContent.classList.add('active');
+      } else {
+        personalizationContent.classList.remove('active');
+        document.getElementById('customName').value = '';
+        document.getElementById('customNumber').value = '';
+      }
+    });
+  }
+
   // Add to cart
   const addToCartBtn = document.getElementById('addToCartBtn');
   if (addToCartBtn) {
     addToCartBtn.addEventListener('click', () => {
       if (!currentProduct) return;
       
-      const success = addToCart(currentProduct, selectedSize, currentQuantity);
+      if (!selectedSize) {
+        showToast('נא לבחור מידה', 'error');
+        // Flash the size selector to draw attention
+        const sizeSelector = document.getElementById('sizeSelector');
+        if (sizeSelector) {
+            sizeSelector.style.animation = 'pulse 0.5s ease 2';
+            setTimeout(() => sizeSelector.style.animation = '', 1000);
+        }
+        return;
+      }
+
+      let customName = null;
+      let customNumber = null;
+
+      if (addPersonalization && addPersonalization.checked) {
+        customName = document.getElementById('customName').value.trim();
+        customNumber = document.getElementById('customNumber').value.trim();
+      }
+      
+      const success = addToCart(currentProduct, selectedSize, currentQuantity, customName, customNumber);
       if (success) {
         // Track add to cart event
         if (window.trackEvent) {
@@ -192,9 +227,10 @@ function renderProductDetails(product) {
         selectedSize = e.target.dataset.size;
         selectedSizeText.textContent = selectedSize;
         
-        // Enable Add to Cart button
+        // Enable Add to Cart button styling if it was previously grayed out
+        // (Button is no longer disabled by default, but this keeps visual sync)
         if (addToCartBtn) {
-          addToCartBtn.removeAttribute('disabled');
+          addToCartBtn.style.opacity = '1';
         }
       });
     });

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KOK – King of Kits | השלמת הזמנה</title>
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/pages.css">
+    
+    <!-- PayPal SDK -->
+    <script src="https://www.paypal.com/sdk/js?client-id=sb&currency=ILS"></script>
+</head>
+<body data-theme="dark">
+
+    <!-- Simple Navbar for Checkout (No links to avoid distraction) -->
+    <nav class="navbar" style="border-bottom: 1px solid var(--border);">
+        <div class="container navbar-content" style="justify-content: center;">
+            <a href="index.html" class="navbar-logo" style="margin: 0;">
+                <span class="logo-text">KOK</span>
+                <span class="logo-subtitle">KING OF KITS</span>
+            </a>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="checkout-page">
+        <div class="container">
+            <h1 class="checkout-page-title">השלמת הזמנה</h1>
+
+            <div id="checkoutPageContainer" class="checkout-layout">
+                <!-- Form Area -->
+                <div>
+                    <form id="checkoutForm">
+                        <div class="checkout-form-section">
+                            <h3 class="checkout-form-title">
+                                <span class="step-number">1</span>
+                                פרטי קשר ומשלוח
+                            </h3>
+                            
+                            <div class="grid-2">
+                                <div class="form-group">
+                                    <label for="fullName">שם מלא *</label>
+                                    <input type="text" id="fullName" class="form-input" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="phone">טלפון (נייד) *</label>
+                                    <input type="tel" id="phone" class="form-input" placeholder="05XXXXXXXX" required>
+                                    <small style="color:var(--text-secondary); display:block; margin-top:5px;">
+                                        * מספר הטלפון משמש לשליחת מספר המעקב ועדכונים לגבי המשלוח שלך.
+                                    </small>
+                                </div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email">אימייל (לשליחת קבלה ופרטי מעקב) *</label>
+                                <input type="email" id="email" class="form-input" required>
+                            </div>
+                            
+                            <div class="grid-2">
+                                <div class="form-group">
+                                    <label for="city">עיר / יישוב *</label>
+                                    <input type="text" id="city" class="form-input" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="zip">מיקוד</label>
+                                    <input type="text" id="zip" class="form-input">
+                                </div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="address">כתובת מלאה (רחוב, מספר בית, דירה) *</label>
+                                <input type="text" id="address" class="form-input" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="notes">הערות למשלוח (אופציונלי)</label>
+                                <textarea id="notes" class="form-input" rows="3" placeholder="למשל: להשאיר ליד הדלת..."></textarea>
+                            </div>
+                        </div>
+
+                        <div class="checkout-form-section" id="paymentSection" style="opacity: 0.5; pointer-events: none;">
+                            <h3 class="checkout-form-title">
+                                <span class="step-number">2</span>
+                                תשלום
+                            </h3>
+                            
+                            <div class="paypal-container">
+                                <h4 style="margin-bottom: 15px;">
+                                    <svg viewBox="0 0 24 24" style="width: 20px; height: 20px; stroke: var(--text-primary); fill: none;"><rect x="1" y="4" width="22" height="16" rx="2" ry="2"></rect><line x1="1" y1="10" x2="23" y2="10"></line></svg>
+                                    שלם בצורה מאובטחת באמצעות PayPal
+                                </h4>
+                                <div id="paypal-button-container"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="text-center mt-4 mb-5" id="validationBtnContainer">
+                            <button type="button" class="btn btn-primary btn-lg btn-block" id="validateFormBtn">המשך לתשלום</button>
+                        </div>
+                    </form>
+                </div>
+
+                <!-- Order Summary Sidebar -->
+                <div class="order-summary">
+                    <h3 class="order-summary-title">סיכום הזמנה</h3>
+                    
+                    <div class="checkout-order-items" id="checkoutItemsList">
+                        <!-- Injected via JS -->
+                    </div>
+                    
+                    <div class="order-summary-row">
+                        <span class="label">סיכום ביניים</span>
+                        <span class="value" id="checkoutSubtotal">₪0.00</span>
+                    </div>
+                    
+                    <div class="order-summary-row">
+                        <span class="label">דמי משלוח</span>
+                        <span class="value" id="checkoutShipping">₪0.00</span>
+                    </div>
+                    
+                    <div id="checkoutDiscountContainer">
+                        <!-- Injected via JS -->
+                    </div>
+                    
+                    <div class="order-summary-row total">
+                        <span class="label">סה"כ לתשלום</span>
+                        <span class="value" id="checkoutTotal">₪0.00</span>
+                    </div>
+                    
+                    <div class="trust-badges mt-4 pt-3" style="border-top: 1px solid var(--border); justify-content: center;">
+                        <svg viewBox="0 0 24 24" style="width: 32px; height: 32px; stroke: var(--text-secondary); fill: none;"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg>
+                        <span style="font-size: var(--font-size-xs); color: var(--text-secondary); margin-right: 8px;">קנייה מאובטחת</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Scripts -->
+    <script src="js/utils.js"></script>
+    <script src="js/cart.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/analytics.js"></script>
+    <script src="js/checkout.js"></script>
+</body>
+</html>
