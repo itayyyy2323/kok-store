@@ -46,8 +46,25 @@
     </nav>
 
     <!-- Cart Drawer -->
-    <div class="cart-drawer-overlay" id="cartOverlay"></div>
-    <div class="cart-drawer" id="cartDrawer"></div>
+    <div class="cart-overlay" id="cartOverlay"></div>
+    <div class="cart-drawer" id="cartDrawer">
+        <div class="cart-drawer-header">
+            <h3 class="cart-drawer-title">סל הקניות</h3>
+            <button class="cart-drawer-close" id="closeCartBtn">
+                <svg viewBox="0 0 24 24"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+            </button>
+        </div>
+        <div class="cart-drawer-items" id="cartItemsList">
+            <!-- Items will be injected here -->
+        </div>
+        <div class="cart-drawer-footer">
+            <div class="cart-drawer-total">
+                <span>סה"כ:</span>
+                <span class="price" id="cartSubtotal">₪0.00</span>
+            </div>
+            <a href="cart.html" class="btn btn-primary btn-block">מעבר לעגלה</a>
+        </div>
+    </div>
 
     <!-- Main Content -->
     <main class="product-page">

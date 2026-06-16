@@ -1958,27 +1958,30 @@
 }
 
 .filter-checkbox {
-  width: 18px;
-  height: 18px;
-  border: 2px solid var(--border-light);
-  border-radius: var(--radius-xs);
   display: flex;
   align-items: center;
-  justify-content: center;
-  flex-shrink: 0;
-  transition: all var(--transition-fast);
+  gap: var(--space-sm);
+  cursor: pointer;
+  color: var(--text-secondary);
+  transition: color var(--transition-fast);
 }
 
-.filter-option.active .filter-checkbox {
-  background: var(--accent);
-  border-color: var(--accent);
+.filter-checkbox:hover {
+  color: var(--text-primary);
 }
 
+.filter-checkbox input[type="radio"],
+.filter-checkbox input[type="checkbox"] {
+  accent-color: var(--text-primary);
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+  margin: 0;
+}
+
+.filter-option.active .filter-checkbox,
 .filter-option.active .filter-checkbox::after {
-  content: '✓';
-  font-size: 11px;
-  color: var(--text-inverse);
-  font-weight: 700;
+  /* Removed old fake checkbox styles */
 }
 
 .filter-count {
