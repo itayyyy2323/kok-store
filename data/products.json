@@ -13,9 +13,18 @@
     "images": [
       "mancity-home-2025.jpg"
     ],
-    "sizes": ["S", "M", "L", "XL", "XXL"],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
     "featured": true,
-    "tags": ["חדש", "פופולרי"]
+    "tags": [
+      "חדש",
+      "פופולרי"
+    ]
   },
   {
     "id": "premier-league-mancity-away-2025",
@@ -31,9 +40,16 @@
     "images": [
       "mancity-away-2025.jpg"
     ],
-    "sizes": ["S", "M", "L", "XL"],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
     "featured": false,
-    "tags": ["חדש"]
+    "tags": [
+      "חדש"
+    ]
   },
   {
     "id": "premier-league-mancity-third-2025",
@@ -47,11 +63,18 @@
     "typeName": "שלישית",
     "isWorldCupSpecial": false,
     "images": [
-      "mancity-third-2025.jpg"
+      "mancity-third-2025.png"
     ],
-    "sizes": ["S", "M", "L", "XL"],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
     "featured": false,
-    "tags": ["חדש"]
+    "tags": [
+      "חדש"
+    ]
   },
   {
     "id": "premier-league-mancity-retro-2006",
@@ -65,11 +88,17 @@
     "typeName": "בית",
     "isWorldCupSpecial": false,
     "images": [
-      "mancity-retro.jpg"
+      "mancity-retro.png"
     ],
-    "sizes": ["S", "M", "L"],
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
     "featured": false,
-    "tags": ["רטרו"]
+    "tags": [
+      "רטרו"
+    ]
   },
   {
     "id": "premier-league-arsenal-home-2025",
@@ -85,9 +114,18 @@
     "images": [
       "arsenal-home-2025.jpg"
     ],
-    "sizes": ["S", "M", "L", "XL", "XXL"],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
     "featured": true,
-    "tags": ["חדש", "פופולרי"]
+    "tags": [
+      "חדש",
+      "פופולרי"
+    ]
   },
   {
     "id": "premier-league-arsenal-away-2025",
@@ -103,9 +141,16 @@
     "images": [
       "arsenal-away-2025.jpg"
     ],
-    "sizes": ["S", "M", "L", "XL"],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
     "featured": false,
-    "tags": ["חדש"]
+    "tags": [
+      "חדש"
+    ]
   },
   {
     "id": "premier-league-arsenal-third-2025",
@@ -119,11 +164,18 @@
     "typeName": "שלישית",
     "isWorldCupSpecial": false,
     "images": [
-      "arsenal-third-2025.jpg"
+      "arsenal-third-2025.png"
     ],
-    "sizes": ["S", "M", "L", "XL"],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
     "featured": false,
-    "tags": ["חדש"]
+    "tags": [
+      "חדש"
+    ]
   },
   {
     "id": "premier-league-arsenal-retro-2006",
@@ -139,9 +191,15 @@
     "images": [
       "arsenal-retro-2004.jpg"
     ],
-    "sizes": ["S", "M", "L"],
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
     "featured": false,
-    "tags": ["רטרו"]
+    "tags": [
+      "רטרו"
+    ]
   },
   {
     "id": "premier-league-liverpool-home-2025",
@@ -157,9 +215,18 @@
     "images": [
       "liverpool-home-2025.jpg"
     ],
-    "sizes": ["S", "M", "L", "XL", "XXL"],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
     "featured": true,
-    "tags": ["חדש", "פופולרי"]
+    "tags": [
+      "חדש",
+      "פופולרי"
+    ]
   },
   {
     "id": "premier-league-liverpool-away-2025",
@@ -175,9 +242,16 @@
     "images": [
       "liverpool-away-2025.jpg"
     ],
-    "sizes": ["S", "M", "L", "XL"],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
     "featured": false,
-    "tags": ["חדש"]
+    "tags": [
+      "חדש"
+    ]
   },
   {
     "id": "premier-league-liverpool-third-2025",
@@ -193,9 +267,16 @@
     "images": [
       "liverpool-third-2025.jpg"
     ],
-    "sizes": ["S", "M", "L", "XL"],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
     "featured": false,
-    "tags": ["חדש"]
+    "tags": [
+      "חדש"
+    ]
   },
   {
     "id": "premier-league-liverpool-retro-2006",
@@ -211,9 +292,15 @@
     "images": [
       "liverpool-retro.jpg"
     ],
-    "sizes": ["S", "M", "L"],
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
     "featured": false,
-    "tags": ["רטרו"]
+    "tags": [
+      "רטרו"
+    ]
   },
   {
     "id": "premier-league-chelsea-home-2025",
@@ -229,9 +316,18 @@
     "images": [
       "chelsea-home-2025.jpg"
     ],
-    "sizes": ["S", "M", "L", "XL", "XXL"],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
     "featured": true,
-    "tags": ["חדש", "פופולרי"]
+    "tags": [
+      "חדש",
+      "פופולרי"
+    ]
   },
   {
     "id": "premier-league-chelsea-away-2025",
@@ -247,9 +343,16 @@
     "images": [
       "chelsea-away-2025.jpg"
     ],
-    "sizes": ["S", "M", "L", "XL"],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
     "featured": false,
-    "tags": ["חדש"]
+    "tags": [
+      "חדש"
+    ]
   },
   {
     "id": "premier-league-chelsea-third-2025",
@@ -263,11 +366,18 @@
     "typeName": "שלישית",
     "isWorldCupSpecial": false,
     "images": [
-      "chelsea-third-2025.jpg"
+      "chelsea-third-2025.png"
     ],
-    "sizes": ["S", "M", "L", "XL"],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
     "featured": false,
-    "tags": ["חדש"]
+    "tags": [
+      "חדש"
+    ]
   },
   {
     "id": "premier-league-chelsea-retro-2006",
@@ -281,11 +391,17 @@
     "typeName": "בית",
     "isWorldCupSpecial": false,
     "images": [
-      "chelsea-retro.jpg"
+      "chelsea-retro.png"
     ],
-    "sizes": ["S", "M", "L"],
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
     "featured": false,
-    "tags": ["רטרו"]
+    "tags": [
+      "רטרו"
+    ]
   },
   {
     "id": "premier-league-manutd-home-2025",
@@ -301,9 +417,18 @@
     "images": [
       "manutd-home-2025.jpg"
     ],
-    "sizes": ["S", "M", "L", "XL", "XXL"],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
     "featured": true,
-    "tags": ["חדש", "פופולרי"]
+    "tags": [
+      "חדש",
+      "פופולרי"
+    ]
   },
   {
     "id": "premier-league-manutd-away-2025",
@@ -319,9 +444,16 @@
     "images": [
       "manutd-away-2025.jpg"
     ],
-    "sizes": ["S", "M", "L", "XL"],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
     "featured": false,
-    "tags": ["חדש"]
+    "tags": [
+      "חדש"
+    ]
   },
   {
     "id": "premier-league-manutd-third-2025",
@@ -335,11 +467,18 @@
     "typeName": "שלישית",
     "isWorldCupSpecial": false,
     "images": [
-      "manutd-third-2025.jpg"
+      "manutd-third-2025.png"
     ],
-    "sizes": ["S", "M", "L", "XL"],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
     "featured": false,
-    "tags": ["חדש"]
+    "tags": [
+      "חדש"
+    ]
   },
   {
     "id": "premier-league-manutd-retro-2006",
@@ -355,9 +494,15 @@
     "images": [
       "manutd-retro-1999.jpg"
     ],
-    "sizes": ["S", "M", "L"],
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
     "featured": false,
-    "tags": ["רטרו"]
+    "tags": [
+      "רטרו"
+    ]
   },
   {
     "id": "premier-league-tottenham-home-2025",
@@ -373,9 +518,18 @@
     "images": [
       "tottenham-home-2025.jpg"
     ],
-    "sizes": ["S", "M", "L", "XL", "XXL"],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
     "featured": true,
-    "tags": ["חדש", "פופולרי"]
+    "tags": [
+      "חדש",
+      "פופולרי"
+    ]
   },
   {
     "id": "premier-league-tottenham-away-2025",
@@ -389,11 +543,18 @@
     "typeName": "חוץ",
     "isWorldCupSpecial": false,
     "images": [
-      "tottenham-away-2025.jpg"
+      "tottenham-away-2025.png"
     ],
-    "sizes": ["S", "M", "L", "XL"],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
     "featured": false,
-    "tags": ["חדש"]
+    "tags": [
+      "חדש"
+    ]
   },
   {
     "id": "premier-league-tottenham-third-2025",
@@ -407,11 +568,18 @@
     "typeName": "שלישית",
     "isWorldCupSpecial": false,
     "images": [
-      "tottenham-third-2025.jpg"
+      "tottenham-third-2025.png"
     ],
-    "sizes": ["S", "M", "L", "XL"],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
     "featured": false,
-    "tags": ["חדש"]
+    "tags": [
+      "חדש"
+    ]
   },
   {
     "id": "premier-league-tottenham-retro-2006",
@@ -425,11 +593,17 @@
     "typeName": "בית",
     "isWorldCupSpecial": false,
     "images": [
-      "tottenham-retro.jpg"
+      "tottenham-retro.png"
     ],
-    "sizes": ["S", "M", "L"],
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
     "featured": false,
-    "tags": ["רטרו"]
+    "tags": [
+      "רטרו"
+    ]
   },
   {
     "id": "la-liga-realmadrid-home-2025",
@@ -445,9 +619,18 @@
     "images": [
       "realmadrid-home-2025.jpg"
     ],
-    "sizes": ["S", "M", "L", "XL", "XXL"],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
     "featured": true,
-    "tags": ["חדש", "פופולרי"]
+    "tags": [
+      "חדש",
+      "פופולרי"
+    ]
   },
   {
     "id": "la-liga-realmadrid-away-2025",
@@ -463,9 +646,16 @@
     "images": [
       "realmadrid-away-2025.jpg"
     ],
-    "sizes": ["S", "M", "L", "XL"],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
     "featured": false,
-    "tags": ["חדש"]
+    "tags": [
+      "חדש"
+    ]
   },
   {
     "id": "la-liga-realmadrid-third-2025",
@@ -479,11 +669,18 @@
     "typeName": "שלישית",
     "isWorldCupSpecial": false,
     "images": [
-      "realmadrid-third-2025.jpg"
+      "realmadrid-third-2025.png"
     ],
-    "sizes": ["S", "M", "L", "XL"],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
     "featured": false,
-    "tags": ["חדש"]
+    "tags": [
+      "חדש"
+    ]
   },
   {
     "id": "la-liga-realmadrid-retro-2006",
@@ -497,11 +694,17 @@
     "typeName": "בית",
     "isWorldCupSpecial": false,
     "images": [
-      "realmadrid-retro.jpg"
+      "realmadrid-retro.png"
     ],
-    "sizes": ["S", "M", "L"],
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
     "featured": false,
-    "tags": ["רטרו"]
+    "tags": [
+      "רטרו"
+    ]
   },
   {
     "id": "la-liga-barcelona-home-2025",
@@ -517,9 +720,18 @@
     "images": [
       "barcelona-home-2025.jpg"
     ],
-    "sizes": ["S", "M", "L", "XL", "XXL"],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
     "featured": true,
-    "tags": ["חדש", "פופולרי"]
+    "tags": [
+      "חדש",
+      "פופולרי"
+    ]
   },
   {
     "id": "la-liga-barcelona-away-2025",
@@ -535,9 +747,16 @@
     "images": [
       "barcelona-away-2025.jpg"
     ],
-    "sizes": ["S", "M", "L", "XL"],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
     "featured": false,
-    "tags": ["חדש"]
+    "tags": [
+      "חדש"
+    ]
   },
   {
     "id": "la-liga-barcelona-third-2025",
@@ -551,11 +770,18 @@
     "typeName": "שלישית",
     "isWorldCupSpecial": false,
     "images": [
-      "barcelona-third-2025.jpg"
+      "barcelona-third-2025.png"
     ],
-    "sizes": ["S", "M", "L", "XL"],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
     "featured": false,
-    "tags": ["חדש"]
+    "tags": [
+      "חדש"
+    ]
   },
   {
     "id": "la-liga-barcelona-retro-2006",
@@ -571,9 +797,15 @@
     "images": [
       "barcelona-retro-2006.jpg"
     ],
-    "sizes": ["S", "M", "L"],
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
     "featured": false,
-    "tags": ["רטרו"]
+    "tags": [
+      "רטרו"
+    ]
   },
   {
     "id": "la-liga-atletico-home-2025",
@@ -589,9 +821,18 @@
     "images": [
       "atletico-home-2025.jpg"
     ],
-    "sizes": ["S", "M", "L", "XL", "XXL"],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
     "featured": true,
-    "tags": ["חדש", "פופולרי"]
+    "tags": [
+      "חדש",
+      "פופולרי"
+    ]
   },
   {
     "id": "la-liga-atletico-away-2025",
@@ -605,11 +846,18 @@
     "typeName": "חוץ",
     "isWorldCupSpecial": false,
     "images": [
-      "atletico-away-2025.jpg"
+      "atletico-away-2025.png"
     ],
-    "sizes": ["S", "M", "L", "XL"],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
     "featured": false,
-    "tags": ["חדש"]
+    "tags": [
+      "חדש"
+    ]
   },
   {
     "id": "la-liga-atletico-third-2025",
@@ -623,11 +871,18 @@
     "typeName": "שלישית",
     "isWorldCupSpecial": false,
     "images": [
-      "atletico-third-2025.jpg"
+      "atletico-third-2025.png"
     ],
-    "sizes": ["S", "M", "L", "XL"],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
     "featured": false,
-    "tags": ["חדש"]
+    "tags": [
+      "חדש"
+    ]
   },
   {
     "id": "la-liga-atletico-retro-2006",
@@ -641,11 +896,17 @@
     "typeName": "בית",
     "isWorldCupSpecial": false,
     "images": [
-      "atletico-retro.jpg"
+      "atletico-retro.png"
     ],
-    "sizes": ["S", "M", "L"],
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
     "featured": false,
-    "tags": ["רטרו"]
+    "tags": [
+      "רטרו"
+    ]
   },
   {
     "id": "serie-a-inter-home-2025",
@@ -661,9 +922,18 @@
     "images": [
       "inter-home-2025.jpg"
     ],
-    "sizes": ["S", "M", "L", "XL", "XXL"],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
     "featured": true,
-    "tags": ["חדש", "פופולרי"]
+    "tags": [
+      "חדש",
+      "פופולרי"
+    ]
   },
   {
     "id": "serie-a-inter-away-2025",
@@ -677,11 +947,18 @@
     "typeName": "חוץ",
     "isWorldCupSpecial": false,
     "images": [
-      "inter-away-2025.jpg"
+      "inter-away-2025.png"
     ],
-    "sizes": ["S", "M", "L", "XL"],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
     "featured": false,
-    "tags": ["חדש"]
+    "tags": [
+      "חדש"
+    ]
   },
   {
     "id": "serie-a-inter-third-2025",
@@ -695,11 +972,18 @@
     "typeName": "שלישית",
     "isWorldCupSpecial": false,
     "images": [
-      "inter-third-2025.jpg"
+      "inter-third-2025.png"
     ],
-    "sizes": ["S", "M", "L", "XL"],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
     "featured": false,
-    "tags": ["חדש"]
+    "tags": [
+      "חדש"
+    ]
   },
   {
     "id": "serie-a-inter-retro-2006",
@@ -713,11 +997,17 @@
     "typeName": "בית",
     "isWorldCupSpecial": false,
     "images": [
-      "inter-retro.jpg"
+      "inter-retro.png"
     ],
-    "sizes": ["S", "M", "L"],
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
     "featured": false,
-    "tags": ["רטרו"]
+    "tags": [
+      "רטרו"
+    ]
   },
   {
     "id": "serie-a-acmilan-home-2025",
@@ -733,9 +1023,18 @@
     "images": [
       "acmilan-home-2025.jpg"
     ],
-    "sizes": ["S", "M", "L", "XL", "XXL"],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
     "featured": true,
-    "tags": ["חדש", "פופולרי"]
+    "tags": [
+      "חדש",
+      "פופולרי"
+    ]
   },
   {
     "id": "serie-a-acmilan-away-2025",
@@ -749,11 +1048,18 @@
     "typeName": "חוץ",
     "isWorldCupSpecial": false,
     "images": [
-      "acmilan-away-2025.jpg"
+      "acmilan-away-2025.png"
     ],
-    "sizes": ["S", "M", "L", "XL"],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
     "featured": false,
-    "tags": ["חדש"]
+    "tags": [
+      "חדש"
+    ]
   },
   {
     "id": "serie-a-acmilan-third-2025",
@@ -767,11 +1073,18 @@
     "typeName": "שלישית",
     "isWorldCupSpecial": false,
     "images": [
-      "acmilan-third-2025.jpg"
+      "acmilan-third-2025.png"
     ],
-    "sizes": ["S", "M", "L", "XL"],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
     "featured": false,
-    "tags": ["חדש"]
+    "tags": [
+      "חדש"
+    ]
   },
   {
     "id": "serie-a-acmilan-retro-2006",
@@ -787,9 +1100,15 @@
     "images": [
       "acmilan-retro-2007.jpg"
     ],
-    "sizes": ["S", "M", "L"],
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
     "featured": false,
-    "tags": ["רטרו"]
+    "tags": [
+      "רטרו"
+    ]
   },
   {
     "id": "serie-a-juventus-home-2025",
@@ -805,9 +1124,18 @@
     "images": [
       "juventus-home-2025.jpg"
     ],
-    "sizes": ["S", "M", "L", "XL", "XXL"],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
     "featured": true,
-    "tags": ["חדש", "פופולרי"]
+    "tags": [
+      "חדש",
+      "פופולרי"
+    ]
   },
   {
     "id": "serie-a-juventus-away-2025",
@@ -823,9 +1151,16 @@
     "images": [
       "juventus-away-2025.jpg"
     ],
-    "sizes": ["S", "M", "L", "XL"],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
     "featured": false,
-    "tags": ["חדש"]
+    "tags": [
+      "חדש"
+    ]
   },
   {
     "id": "serie-a-juventus-third-2025",
@@ -841,9 +1176,16 @@
     "images": [
       "juventus-third-2025.jpg"
     ],
-    "sizes": ["S", "M", "L", "XL"],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
     "featured": false,
-    "tags": ["חדש"]
+    "tags": [
+      "חדש"
+    ]
   },
   {
     "id": "serie-a-juventus-retro-2006",
@@ -859,9 +1201,15 @@
     "images": [
       "juventus-retro.jpg"
     ],
-    "sizes": ["S", "M", "L"],
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
     "featured": false,
-    "tags": ["רטרו"]
+    "tags": [
+      "רטרו"
+    ]
   },
   {
     "id": "serie-a-napoli-home-2025",
@@ -877,9 +1225,18 @@
     "images": [
       "napoli-home-2025.jpg"
     ],
-    "sizes": ["S", "M", "L", "XL", "XXL"],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
     "featured": true,
-    "tags": ["חדש", "פופולרי"]
+    "tags": [
+      "חדש",
+      "פופולרי"
+    ]
   },
   {
     "id": "serie-a-napoli-away-2025",
@@ -893,11 +1250,18 @@
     "typeName": "חוץ",
     "isWorldCupSpecial": false,
     "images": [
-      "napoli-away-2025.jpg"
+      "napoli-away-2025.png"
     ],
-    "sizes": ["S", "M", "L", "XL"],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
     "featured": false,
-    "tags": ["חדש"]
+    "tags": [
+      "חדש"
+    ]
   },
   {
     "id": "serie-a-napoli-third-2025",
@@ -911,11 +1275,18 @@
     "typeName": "שלישית",
     "isWorldCupSpecial": false,
     "images": [
-      "napoli-third-2025.jpg"
+      "napoli-third-2025.png"
     ],
-    "sizes": ["S", "M", "L", "XL"],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
     "featured": false,
-    "tags": ["חדש"]
+    "tags": [
+      "חדש"
+    ]
   },
   {
     "id": "serie-a-napoli-retro-2006",
@@ -929,11 +1300,17 @@
     "typeName": "בית",
     "isWorldCupSpecial": false,
     "images": [
-      "napoli-retro.jpg"
+      "napoli-retro.png"
     ],
-    "sizes": ["S", "M", "L"],
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
     "featured": false,
-    "tags": ["רטרו"]
+    "tags": [
+      "רטרו"
+    ]
   },
   {
     "id": "bundesliga-bayern-home-2025",
@@ -949,9 +1326,18 @@
     "images": [
       "bayern-home-2025.jpg"
     ],
-    "sizes": ["S", "M", "L", "XL", "XXL"],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
     "featured": true,
-    "tags": ["חדש", "פופולרי"]
+    "tags": [
+      "חדש",
+      "פופולרי"
+    ]
   },
   {
     "id": "bundesliga-bayern-away-2025",
@@ -965,11 +1351,18 @@
     "typeName": "חוץ",
     "isWorldCupSpecial": false,
     "images": [
-      "bayern-away-2025.jpg"
+      "bayern-away-2025.png"
     ],
-    "sizes": ["S", "M", "L", "XL"],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
     "featured": false,
-    "tags": ["חדש"]
+    "tags": [
+      "חדש"
+    ]
   },
   {
     "id": "bundesliga-bayern-third-2025",
@@ -983,11 +1376,18 @@
     "typeName": "שלישית",
     "isWorldCupSpecial": false,
     "images": [
-      "bayern-third-2025.jpg"
+      "bayern-third-2025.png"
     ],
-    "sizes": ["S", "M", "L", "XL"],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
     "featured": false,
-    "tags": ["חדש"]
+    "tags": [
+      "חדש"
+    ]
   },
   {
     "id": "bundesliga-bayern-retro-2006",
@@ -1001,11 +1401,17 @@
     "typeName": "בית",
     "isWorldCupSpecial": false,
     "images": [
-      "bayern-retro.jpg"
+      "bayern-retro.png"
     ],
-    "sizes": ["S", "M", "L"],
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
     "featured": false,
-    "tags": ["רטרו"]
+    "tags": [
+      "רטרו"
+    ]
   },
   {
     "id": "bundesliga-dortmund-home-2025",
@@ -1021,9 +1427,18 @@
     "images": [
       "dortmund-home-2025.jpg"
     ],
-    "sizes": ["S", "M", "L", "XL", "XXL"],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
     "featured": true,
-    "tags": ["חדש", "פופולרי"]
+    "tags": [
+      "חדש",
+      "פופולרי"
+    ]
   },
   {
     "id": "bundesliga-dortmund-away-2025",
@@ -1037,11 +1452,18 @@
     "typeName": "חוץ",
     "isWorldCupSpecial": false,
     "images": [
-      "dortmund-away-2025.jpg"
+      "dortmund-away-2025.png"
     ],
-    "sizes": ["S", "M", "L", "XL"],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
     "featured": false,
-    "tags": ["חדש"]
+    "tags": [
+      "חדש"
+    ]
   },
   {
     "id": "bundesliga-dortmund-third-2025",
@@ -1055,11 +1477,18 @@
     "typeName": "שלישית",
     "isWorldCupSpecial": false,
     "images": [
-      "dortmund-third-2025.jpg"
+      "dortmund-third-2025.png"
     ],
-    "sizes": ["S", "M", "L", "XL"],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
     "featured": false,
-    "tags": ["חדש"]
+    "tags": [
+      "חדש"
+    ]
   },
   {
     "id": "bundesliga-dortmund-retro-2006",
@@ -1073,11 +1502,17 @@
     "typeName": "בית",
     "isWorldCupSpecial": false,
     "images": [
-      "dortmund-retro.jpg"
+      "dortmund-retro.png"
     ],
-    "sizes": ["S", "M", "L"],
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
     "featured": false,
-    "tags": ["רטרו"]
+    "tags": [
+      "רטרו"
+    ]
   },
   {
     "id": "bundesliga-leverkusen-home-2025",
@@ -1093,9 +1528,18 @@
     "images": [
       "leverkusen-home-2025.jpg"
     ],
-    "sizes": ["S", "M", "L", "XL", "XXL"],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
     "featured": true,
-    "tags": ["חדש", "פופולרי"]
+    "tags": [
+      "חדש",
+      "פופולרי"
+    ]
   },
   {
     "id": "bundesliga-leverkusen-away-2025",
@@ -1109,11 +1553,18 @@
     "typeName": "חוץ",
     "isWorldCupSpecial": false,
     "images": [
-      "leverkusen-away-2025.jpg"
+      "leverkusen-away-2025.png"
     ],
-    "sizes": ["S", "M", "L", "XL"],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
     "featured": false,
-    "tags": ["חדש"]
+    "tags": [
+      "חדש"
+    ]
   },
   {
     "id": "bundesliga-leverkusen-third-2025",
@@ -1127,11 +1578,18 @@
     "typeName": "שלישית",
     "isWorldCupSpecial": false,
     "images": [
-      "leverkusen-third-2025.jpg"
+      "leverkusen-third-2025.png"
     ],
-    "sizes": ["S", "M", "L", "XL"],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
     "featured": false,
-    "tags": ["חדש"]
+    "tags": [
+      "חדש"
+    ]
   },
   {
     "id": "bundesliga-leverkusen-retro-2006",
@@ -1145,11 +1603,17 @@
     "typeName": "בית",
     "isWorldCupSpecial": false,
     "images": [
-      "leverkusen-retro.jpg"
+      "leverkusen-retro.png"
     ],
-    "sizes": ["S", "M", "L"],
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
     "featured": false,
-    "tags": ["רטרו"]
+    "tags": [
+      "רטרו"
+    ]
   },
   {
     "id": "ligue-1-psg-home-2025",
@@ -1165,9 +1629,18 @@
     "images": [
       "psg-home-2025.jpg"
     ],
-    "sizes": ["S", "M", "L", "XL", "XXL"],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
     "featured": true,
-    "tags": ["חדש", "פופולרי"]
+    "tags": [
+      "חדש",
+      "פופולרי"
+    ]
   },
   {
     "id": "ligue-1-psg-away-2025",
@@ -1181,11 +1654,18 @@
     "typeName": "חוץ",
     "isWorldCupSpecial": false,
     "images": [
-      "psg-away-2025.jpg"
+      "psg-away-2025.png"
     ],
-    "sizes": ["S", "M", "L", "XL"],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
     "featured": false,
-    "tags": ["חדש"]
+    "tags": [
+      "חדש"
+    ]
   },
   {
     "id": "ligue-1-psg-third-2025",
@@ -1199,11 +1679,18 @@
     "typeName": "שלישית",
     "isWorldCupSpecial": false,
     "images": [
-      "psg-third-2025.jpg"
+      "psg-third-2025.png"
     ],
-    "sizes": ["S", "M", "L", "XL"],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
     "featured": false,
-    "tags": ["חדש"]
+    "tags": [
+      "חדש"
+    ]
   },
   {
     "id": "ligue-1-psg-retro-2006",
@@ -1217,11 +1704,17 @@
     "typeName": "בית",
     "isWorldCupSpecial": false,
     "images": [
-      "psg-retro.jpg"
+      "psg-retro.png"
     ],
-    "sizes": ["S", "M", "L"],
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
     "featured": false,
-    "tags": ["רטרו"]
+    "tags": [
+      "רטרו"
+    ]
   },
   {
     "id": "wc2026-argentina-home",
@@ -1237,9 +1730,19 @@
     "images": [
       "argentina-home-2026.jpg"
     ],
-    "sizes": ["S", "M", "L", "XL", "XXL"],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
     "featured": true,
-    "tags": ["מונדיאל", "הנבחרת", "פופולרי"]
+    "tags": [
+      "מונדיאל",
+      "הנבחרת",
+      "פופולרי"
+    ]
   },
   {
     "id": "wc2026-argentina-away",
@@ -1253,11 +1756,19 @@
     "typeName": "חוץ",
     "isWorldCupSpecial": true,
     "images": [
-      "argentina-away-2026.jpg"
+      "argentina-away-2026.png"
     ],
-    "sizes": ["S", "M", "L", "XL"],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
     "featured": false,
-    "tags": ["מונדיאל", "הנבחרת"]
+    "tags": [
+      "מונדיאל",
+      "הנבחרת"
+    ]
   },
   {
     "id": "wc2026-brazil-home",
@@ -1273,9 +1784,19 @@
     "images": [
       "brazil-home-2026.jpg"
     ],
-    "sizes": ["S", "M", "L", "XL", "XXL"],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
     "featured": true,
-    "tags": ["מונדיאל", "הנבחרת", "פופולרי"]
+    "tags": [
+      "מונדיאל",
+      "הנבחרת",
+      "פופולרי"
+    ]
   },
   {
     "id": "wc2026-brazil-away",
@@ -1289,11 +1810,19 @@
     "typeName": "חוץ",
     "isWorldCupSpecial": true,
     "images": [
-      "brazil-away-2026.jpg"
+      "brazil-away-2026.png"
     ],
-    "sizes": ["S", "M", "L", "XL"],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
     "featured": false,
-    "tags": ["מונדיאל", "הנבחרת"]
+    "tags": [
+      "מונדיאל",
+      "הנבחרת"
+    ]
   },
   {
     "id": "wc2026-france-home",
@@ -1309,9 +1838,19 @@
     "images": [
       "france-home-2026.jpg"
     ],
-    "sizes": ["S", "M", "L", "XL", "XXL"],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
     "featured": true,
-    "tags": ["מונדיאל", "הנבחרת", "פופולרי"]
+    "tags": [
+      "מונדיאל",
+      "הנבחרת",
+      "פופולרי"
+    ]
   },
   {
     "id": "wc2026-france-away",
@@ -1325,11 +1864,19 @@
     "typeName": "חוץ",
     "isWorldCupSpecial": true,
     "images": [
-      "france-away-2026.jpg"
+      "france-away-2026.png"
     ],
-    "sizes": ["S", "M", "L", "XL"],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
     "featured": false,
-    "tags": ["מונדיאל", "הנבחרת"]
+    "tags": [
+      "מונדיאל",
+      "הנבחרת"
+    ]
   },
   {
     "id": "wc2026-germany-home",
@@ -1343,11 +1890,21 @@
     "typeName": "בית",
     "isWorldCupSpecial": true,
     "images": [
-      "germany-home-2026.jpg"
+      "germany-home-2026.png"
     ],
-    "sizes": ["S", "M", "L", "XL", "XXL"],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
     "featured": true,
-    "tags": ["מונדיאל", "הנבחרת", "פופולרי"]
+    "tags": [
+      "מונדיאל",
+      "הנבחרת",
+      "פופולרי"
+    ]
   },
   {
     "id": "wc2026-germany-away",
@@ -1361,11 +1918,19 @@
     "typeName": "חוץ",
     "isWorldCupSpecial": true,
     "images": [
-      "germany-away-2026.jpg"
+      "germany-away-2026.png"
     ],
-    "sizes": ["S", "M", "L", "XL"],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
     "featured": false,
-    "tags": ["מונדיאל", "הנבחרת"]
+    "tags": [
+      "מונדיאל",
+      "הנבחרת"
+    ]
   },
   {
     "id": "wc2026-spain-home",
@@ -1381,9 +1946,19 @@
     "images": [
       "spain-home-2026.jpg"
     ],
-    "sizes": ["S", "M", "L", "XL", "XXL"],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
     "featured": true,
-    "tags": ["מונדיאל", "הנבחרת", "פופולרי"]
+    "tags": [
+      "מונדיאל",
+      "הנבחרת",
+      "פופולרי"
+    ]
   },
   {
     "id": "wc2026-spain-away",
@@ -1399,9 +1974,17 @@
     "images": [
       "spain-away-2026.jpg"
     ],
-    "sizes": ["S", "M", "L", "XL"],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
     "featured": false,
-    "tags": ["מונדיאל", "הנבחרת"]
+    "tags": [
+      "מונדיאל",
+      "הנבחרת"
+    ]
   },
   {
     "id": "wc2026-england-home",
@@ -1417,9 +2000,19 @@
     "images": [
       "england-home-2026.jpg"
     ],
-    "sizes": ["S", "M", "L", "XL", "XXL"],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
     "featured": true,
-    "tags": ["מונדיאל", "הנבחרת", "פופולרי"]
+    "tags": [
+      "מונדיאל",
+      "הנבחרת",
+      "פופולרי"
+    ]
   },
   {
     "id": "wc2026-england-away",
@@ -1435,9 +2028,17 @@
     "images": [
       "england-away-2026.jpg"
     ],
-    "sizes": ["S", "M", "L", "XL"],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
     "featured": false,
-    "tags": ["מונדיאל", "הנבחרת"]
+    "tags": [
+      "מונדיאל",
+      "הנבחרת"
+    ]
   },
   {
     "id": "wc2026-portugal-home",
@@ -1453,9 +2054,19 @@
     "images": [
       "portugal-home-2026.jpg"
     ],
-    "sizes": ["S", "M", "L", "XL", "XXL"],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
     "featured": true,
-    "tags": ["מונדיאל", "הנבחרת", "פופולרי"]
+    "tags": [
+      "מונדיאל",
+      "הנבחרת",
+      "פופולרי"
+    ]
   },
   {
     "id": "wc2026-portugal-away",
@@ -1469,10 +2080,18 @@
     "typeName": "חוץ",
     "isWorldCupSpecial": true,
     "images": [
-      "portugal-away-2026.jpg"
+      "portugal-away-2026.png"
     ],
-    "sizes": ["S", "M", "L", "XL"],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
     "featured": false,
-    "tags": ["מונדיאל", "הנבחרת"]
+    "tags": [
+      "מונדיאל",
+      "הנבחרת"
+    ]
   }
 ]
