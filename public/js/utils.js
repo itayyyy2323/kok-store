@@ -1,9 +1,7 @@
 /**
  * KOK – King of Kits | Utility Functions
  */
-
-const API_BASE_URL = '/api';
-
+const API_BASE_URL = '';
 /**
  * Pricing Rules
  * - kit.isWorldCupSpecial === true → 79.99 ILS
