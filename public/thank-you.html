@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KOK – King of Kits | תודה על הזמנתך</title>
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/pages.css">
+</head>
+<body data-theme="dark">
+
+    <!-- Navbar (Hidden on print) -->
+    <nav class="navbar" style="border-bottom: 1px solid var(--border);">
+        <div class="container navbar-content" style="justify-content: center;">
+            <a href="index.html" class="navbar-logo" style="margin: 0;">
+                <span class="logo-text">KOK</span>
+                <span class="logo-subtitle">KING OF KITS</span>
+            </a>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="thankyou-page">
+        <div class="container">
+            <div class="thankyou-header">
+                <div class="thankyou-icon">
+                    <svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                </div>
+                <h1 class="thankyou-title">תודה על ההזמנה!</h1>
+                <p class="thankyou-subtitle">ההזמנה שלך התקבלה בהצלחה ותטופל בהקדם.</p>
+                <div class="thankyou-order-number" id="orderNumberDisplay">
+                    מספר הזמנה: <span class="skeleton" style="width: 100px; display: inline-block;"></span>
+                </div>
+            </div>
+
+            <div class="receipt" id="receiptContainer" style="display: none;">
+                <div class="receipt-header">
+                    <div class="receipt-logo">
+                        <div class="logo-text">KOK</div>
+                        <div style="font-size: 10px; color: var(--text-muted); letter-spacing: 0.1em;">KING OF KITS</div>
+                    </div>
+                    <div class="receipt-info">
+                        <p><strong>תאריך:</strong> <span id="receiptDate"></span></p>
+                        <p><strong>מספר הזמנה:</strong> <span id="receiptId"></span></p>
+                    </div>
+                </div>
+                
+                <div class="receipt-body">
+                    <div class="receipt-customer">
+                        <div class="receipt-customer-title">פרטי לקוח ומשלוח</div>
+                        <div class="receipt-customer-details">
+                            <div>
+                                <div class="label">שם:</div>
+                                <div id="customerName"></div>
+                            </div>
+                            <div>
+                                <div class="label">טלפון:</div>
+                                <div id="customerPhone"></div>
+                            </div>
+                            <div>
+                                <div class="label">אימייל:</div>
+                                <div id="customerEmail"></div>
+                            </div>
+                            <div>
+                                <div class="label">כתובת משלוח:</div>
+                                <div id="customerAddress"></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <table class="receipt-table">
+                        <thead>
+                            <tr>
+                                <th>פריט</th>
+                                <th>מידה</th>
+                                <th>כמות</th>
+                                <th>מחיר</th>
+                            </tr>
+                        </thead>
+                        <tbody id="receiptItems">
+                            <!-- Injected via JS -->
+                        </tbody>
+                    </table>
+                    
+                    <div class="receipt-totals">
+                        <div class="receipt-total-row">
+                            <span class="label">סיכום ביניים</span>
+                            <span id="receiptSubtotal"></span>
+                        </div>
+                        <div class="receipt-total-row">
+                            <span class="label">משלוח</span>
+                            <span id="receiptShipping"></span>
+                        </div>
+                        <div class="receipt-total-row" id="receiptDiscountRow" style="display: none; color: var(--success);">
+                            <span class="label">הנחה</span>
+                            <span id="receiptDiscount"></span>
+                        </div>
+                        <div class="receipt-total-row grand-total">
+                            <span class="label">סה"כ לתשלום</span>
+                            <span id="receiptTotal"></span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="receipt-footer">
+                    <p>תודה שבחרת KOK – King of Kits!</p>
+                    <p>לשאלות ובירורים: itay57820@gmail.com</p>
+                </div>
+            </div>
+
+            <div class="thankyou-actions">
+                <button class="btn btn-secondary" onclick="window.print()">
+                    <svg viewBox="0 0 24 24" style="width: 18px; height: 18px; margin-left: 8px;"><polyline points="6 9 6 2 18 2 18 9"></polyline><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path><rect x="6" y="14" width="12" height="8"></rect></svg>
+                    הדפס קבלה
+                </button>
+                <a href="index.html" class="btn btn-primary">חזרה לעמוד הראשי</a>
+            </div>
+        </div>
+    </main>
+
+    <!-- Scripts -->
+    <script src="js/utils.js"></script>
+    <script src="js/analytics.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const urlParams = new URLSearchParams(window.location.search);
+            const orderIdParam = urlParams.get('orderId');
+            
+            const lastOrderStr = localStorage.getItem('kok_last_order');
+            
+            if (lastOrderStr) {
+                const order = JSON.parse(lastOrderStr);
+                
+                // If it matches param or no param provided
+                if (!orderIdParam || order.orderId === orderIdParam) {
+                    renderReceipt(order);
+                } else {
+                    // Mismatch, maybe someone shared a link, but we only have local data
+                    document.getElementById('orderNumberDisplay').innerHTML = `מספר הזמנה: <strong>${orderIdParam}</strong>`;
+                }
+            } else if (orderIdParam) {
+                document.getElementById('orderNumberDisplay').innerHTML = `מספר הזמנה: <strong>${orderIdParam}</strong>`;
+            } else {
+                window.location.href = 'index.html';
+            }
+        });
+
+        function renderReceipt(order) {
+            document.getElementById('orderNumberDisplay').innerHTML = `מספר הזמנה: <strong>${order.orderId}</strong>`;
+            
+            document.getElementById('receiptDate').textContent = formatDate(order.date || order.createdAt);
+            document.getElementById('receiptId').textContent = order.orderId;
+            
+            document.getElementById('customerName').textContent = order.customer.name;
+            document.getElementById('customerPhone').textContent = order.customer.phone;
+            document.getElementById('customerEmail').textContent = order.customer.email;
+            document.getElementById('customerAddress').textContent = `${order.customer.address}, ${order.customer.city} ${order.customer.zip || ''}`;
+            
+            const itemsHtml = order.items.map(item => `
+                <tr>
+                    <td><strong>${item.name}</strong></td>
+                    <td>${item.size}</td>
+                    <td>${item.quantity}</td>
+                    <td>${formatPrice(item.price * item.quantity)}</td>
+                </tr>
+            `).join('');
+            
+            document.getElementById('receiptItems').innerHTML = itemsHtml;
+            
+            document.getElementById('receiptSubtotal').textContent = formatPrice(order.subtotal);
+            document.getElementById('receiptShipping').textContent = order.shipping === 0 ? 'חינם' : formatPrice(order.shipping);
+            
+            if (order.discount > 0) {
+                document.getElementById('receiptDiscountRow').style.display = 'flex';
+                document.getElementById('receiptDiscount').textContent = `-${formatPrice(order.discount)}`;
+            }
+            
+            document.getElementById('receiptTotal').textContent = formatPrice(order.total);
+            
+            document.getElementById('receiptContainer').style.display = 'block';
+        }
+    </script>
+</body>
+</html>

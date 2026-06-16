@@ -1,0 +1,22 @@
+{
+  "name": "kok-store",
+  "version": "1.0.0",
+  "description": "KOK – King of Kits | חנות חולצות כדורגל",
+  "main": "api/index.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "start": "node server.js",
+    "build": "echo 'No build step needed'"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "vercel": "^32.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

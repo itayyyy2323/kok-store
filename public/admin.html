@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KOK – King of Kits | פאנל ניהול</title>
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/pages.css">
+</head>
+<body data-theme="dark">
+
+    <nav class="navbar" style="border-bottom: 1px solid var(--border);">
+        <div class="container navbar-content">
+            <a href="index.html" class="navbar-logo">
+                <span class="logo-text">KOK</span>
+                <span class="logo-subtitle">ADMIN PANEL</span>
+            </a>
+            <div class="navbar-actions">
+                <button class="btn btn-ghost btn-sm" id="logoutBtn" style="display: none;">התנתק</button>
+            </div>
+        </div>
+    </nav>
+
+    <main class="admin-page">
+        <div class="container">
+            
+            <!-- Login View -->
+            <div id="loginView" class="admin-login">
+                <div class="admin-login-card">
+                    <h1 class="admin-login-title">התחברות לניהול</h1>
+                    <p class="admin-login-subtitle">הזן סיסמת מנהל כדי להמשיך</p>
+                    <form id="adminLoginForm">
+                        <div class="form-group">
+                            <input type="password" id="adminPassword" class="form-input" placeholder="סיסמה" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">התחבר</button>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Dashboard View -->
+            <div id="dashboardView" class="admin-dashboard">
+                <div class="admin-header">
+                    <h1 style="font-size: var(--font-size-2xl);">לוח בקרה</h1>
+                    <button class="btn btn-secondary" onclick="window.open('index.html', '_blank')">צפה באתר</button>
+                </div>
+
+                <div class="admin-tabs">
+                    <button class="admin-tab active" data-target="overview">סקירה כללית</button>
+                    <button class="admin-tab" data-target="orders">הזמנות</button>
+                    <button class="admin-tab" data-target="products">מוצרים</button>
+                </div>
+
+                <!-- Overview Tab -->
+                <div id="overview" class="admin-section active">
+                    <div class="grid-4 mb-4">
+                        <div class="chart-container" style="margin-bottom:0; padding:var(--space-lg);">
+                            <div style="color:var(--text-secondary); font-size:var(--font-size-sm); margin-bottom:var(--space-xs);">הכנסות (סה"כ)</div>
+                            <div style="font-size:var(--font-size-2xl); font-weight:800;" id="statRevenue">₪0</div>
+                        </div>
+                        <div class="chart-container" style="margin-bottom:0; padding:var(--space-lg);">
+                            <div style="color:var(--text-secondary); font-size:var(--font-size-sm); margin-bottom:var(--space-xs);">הזמנות (סה"כ)</div>
+                            <div style="font-size:var(--font-size-2xl); font-weight:800;" id="statOrders">0</div>
+                        </div>
+                        <div class="chart-container" style="margin-bottom:0; padding:var(--space-lg);">
+                            <div style="color:var(--text-secondary); font-size:var(--font-size-sm); margin-bottom:var(--space-xs);">מבקרים ייחודיים</div>
+                            <div style="font-size:var(--font-size-2xl); font-weight:800;" id="statVisitors">0</div>
+                        </div>
+                        <div class="chart-container" style="margin-bottom:0; padding:var(--space-lg);">
+                            <div style="color:var(--text-secondary); font-size:var(--font-size-sm); margin-bottom:var(--space-xs);">ממוצע להזמנה</div>
+                            <div style="font-size:var(--font-size-2xl); font-weight:800;" id="statAvgOrder">₪0</div>
+                        </div>
+                    </div>
+
+                    <div class="chart-container">
+                        <h3 class="chart-title">הכנסות ב-7 הימים האחרונים</h3>
+                        <div style="position: relative; height: 300px; width: 100%;" id="revenueChartContainer">
+                            <!-- Simple custom chart will be drawn here via JS -->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Orders Tab -->
+                <div id="orders" class="admin-section">
+                    <div class="chart-container">
+                        <h3 class="chart-title mb-4">כל ההזמנות</h3>
+                        <div style="overflow-x: auto;">
+                            <table class="receipt-table" style="min-width: 800px;">
+                                <thead>
+                                    <tr>
+                                        <th>תאריך</th>
+                                        <th>מספר הזמנה</th>
+                                        <th>לקוח</th>
+                                        <th>טלפון</th>
+                                        <th>סה"כ</th>
+                                        <th>סטטוס</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="ordersTableBody">
+                                    <!-- Injected via JS -->
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Products Tab -->
+                <div id="products" class="admin-section">
+                    <div class="chart-container">
+                        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:20px;">
+                            <h3 class="chart-title" style="margin:0;">ניהול מוצרים</h3>
+                            <button class="btn btn-primary btn-sm" id="addProductBtn">הוסף מוצר חדש</button>
+                        </div>
+                        <div style="overflow-x: auto;">
+                            <table class="receipt-table" style="min-width: 800px;">
+                                <thead>
+                                    <tr>
+                                        <th>ID</th>
+                                        <th>תמונה</th>
+                                        <th>שם מוצר</th>
+                                        <th>קבוצה</th>
+                                        <th>מחיר (מחושב)</th>
+                                        <th>פעולות</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="productsTableBody">
+                                    <!-- Injected via JS -->
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <!-- Scripts -->
+    <script src="js/utils.js"></script>
+    <script src="js/admin.js"></script>
+</body>
+</html>

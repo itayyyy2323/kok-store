@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KOK – King of Kits | עגלת קניות</title>
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/pages.css">
+</head>
+<body data-theme="dark">
+
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="container navbar-content">
+            <a href="index.html" class="navbar-logo">
+                <span class="logo-text">KOK</span>
+                <span class="logo-subtitle">KING OF KITS</span>
+            </a>
+            <div class="navbar-links" id="navLinks">
+                <a href="index.html">ראשי</a>
+                <a href="products.html">חולצות</a>
+                <a href="products.html?league=premier-league">פרמייר ליג</a>
+                <a href="products.html?league=la-liga">לה ליגה</a>
+                <a href="products.html?worldcup=true">מונדיאל</a>
+                <a href="products.html?retro=true">רטרו</a>
+            </div>
+            <div class="navbar-actions">
+                <button class="btn-icon theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                    <svg viewBox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="cart-page">
+        <div class="container">
+            <h1 class="cart-page-title">סל הקניות שלך</h1>
+
+            <div id="cartPageContainer">
+                <!-- Injected via JS -->
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer mt-5">
+        <div class="container">
+            <div class="footer-bottom">
+                <p>&copy; 2026 KOK - King of Kits. כל הזכויות שמורות.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/utils.js"></script>
+    <script src="js/cart.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/analytics.js"></script>
+    <script>
+        // Additional cart page logic
+        document.addEventListener('DOMContentLoaded', () => {
+            renderCartPage();
+        });
+
+        function renderCartPage() {
+            const container = document.getElementById('cartPageContainer');
+            if (!container) return;
+
+            if (cart.length === 0) {
+                container.innerHTML = `
+                    <div class="empty-state">
+                        <svg viewBox="0 0 24 24"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
+                        <h2 class="mt-3">העגלה שלך ריקה</h2>
+                        <p class="mt-2" style="color:var(--text-secondary);">נראה שעדיין לא הוספת מוצרים לעגלה.</p>
+                        <a href="products.html" class="btn btn-primary btn-lg mt-4">חזרה לחנות</a>
+                    </div>
+                `;
+                return;
+            }
+
+            const itemsHtml = cart.map((item, index) => {
+                const price = getPrice(item);
+                const imageUrl = item.image ? `images/${item.image}` : null;
+                const imgHtml = imageUrl 
+                    ? `<img src="${imageUrl}" alt="${item.name}">`
+                    : `<div class="placeholder-img" style="background:var(--bg-secondary); width:100%; height:100%; display:flex; align-items:center; justify-content:center;">⚽</div>`;
+
+                return `
+                    <div class="cart-item">
+                        <div class="cart-item-image">
+                            ${imgHtml}
+                        </div>
+                        <div class="cart-item-info">
+                            <div style="display:flex; justify-content:space-between;">
+                                <div>
+                                    <h3 class="cart-item-name">${item.name}</h3>
+                                    <div class="cart-item-meta mt-1">מידה: ${item.size}</div>
+                                </div>
+                                <div class="cart-item-price">${formatPrice(price)}</div>
+                            </div>
+                            <div class="cart-item-bottom">
+                                <div class="qty-control">
+                                    <button onclick="updateQuantity(${index}, 1)">+</button>
+                                    <span>${item.quantity}</span>
+                                    <button onclick="updateQuantity(${index}, -1)">-</button>
+                                </div>
+                                <button class="cart-item-remove" onclick="removeFromCart(${index})">
+                                    <svg viewBox="0 0 24 24"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                                    הסר
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                `;
+            }).join('');
+
+            const subtotal = getCartSubtotal();
+            const shipping = getShippingCost(subtotal);
+            const discount = getDiscountAmount(subtotal);
+            const total = getCartTotal();
+            
+            const shippingHtml = shipping === 0 
+                ? '<span style="color:var(--success);">חינם</span>' 
+                : formatPrice(shipping);
+
+            const discountHtml = discount > 0 
+                ? `<div class="order-summary-row discount">
+                    <span class="label">הנחה (${discountCode})</span>
+                    <span class="value">-${formatPrice(discount)}</span>
+                   </div>
+                   <button class="btn btn-ghost btn-sm" onclick="removeDiscountAndRender()" style="font-size:12px; margin-top:-10px; margin-bottom:10px; color:var(--error); padding:0;">הסר קופון</button>
+                  `
+                : '';
+
+            const discountFormHtml = discountCode 
+                ? '' 
+                : `
+                <div class="discount-code-section">
+                    <p style="font-size:13px; color:var(--text-secondary); margin-bottom:8px;">יש לך קוד קופון?</p>
+                    <div class="discount-code-form">
+                        <input type="text" id="discountInput" class="form-input" placeholder="הכנס קוד">
+                        <button class="btn btn-secondary" onclick="applyDiscountFromInput()">הפעל</button>
+                    </div>
+                </div>
+                `;
+
+            container.innerHTML = `
+                <div class="cart-layout">
+                    <div class="cart-items">
+                        ${itemsHtml}
+                    </div>
+                    
+                    <div class="order-summary">
+                        <h3 class="order-summary-title">סיכום הזמנה</h3>
+                        
+                        <div class="order-summary-row">
+                            <span class="label">סיכום ביניים</span>
+                            <span class="value" id="summarySubtotal">${formatPrice(subtotal)}</span>
+                        </div>
+                        
+                        <div class="order-summary-row ${shipping === 0 ? 'shipping-free' : ''}">
+                            <span class="label">דמי משלוח</span>
+                            <span class="value" id="summaryShipping">${shippingHtml}</span>
+                        </div>
+                        
+                        ${discountHtml}
+                        
+                        <div class="order-summary-row total">
+                            <span class="label">סה"כ לתשלום</span>
+                            <span class="value" id="summaryTotal">${formatPrice(total)}</span>
+                        </div>
+                        
+                        ${discountFormHtml}
+                        
+                        <a href="checkout.html" class="btn btn-primary btn-block btn-lg mt-4">המשך לקופה</a>
+                        
+                        <a href="products.html" class="continue-shopping">או המשך לקנות</a>
+                    </div>
+                </div>
+            `;
+        }
+
+        window.applyDiscountFromInput = async function() {
+            const input = document.getElementById('discountInput');
+            if (!input) return;
+            
+            const code = input.value.trim().toUpperCase();
+            if (!code) return;
+            
+            try {
+                const res = await apiFetch('/api/discount', {
+                    method: 'POST',
+                    body: JSON.stringify({ code })
+                });
+                
+                if (res.valid) {
+                    applyDiscount(code);
+                    showToast(res.message, 'success');
+                    renderCartPage();
+                } else {
+                    showToast(res.message, 'error');
+                }
+            } catch (error) {
+                // Fallback to client side if API fails
+                if (code === 'KOK10') {
+                    applyDiscount(code);
+                    showToast('קוד הנחה הוחל בהצלחה! 10% הנחה', 'success');
+                    renderCartPage();
+                } else {
+                    showToast('קוד הנחה לא תקין', 'error');
+                }
+            }
+        };
+
+        window.removeDiscountAndRender = function() {
+            removeDiscount();
+            renderCartPage();
+        };
+    </script>
+</body>
+</html>
