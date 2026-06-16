@@ -1,2083 +1,1478 @@
 [
-    {
-        "team":  "מנצ\u0027סטר סיטי",
-        "id":  "premier-league-mancity-home-2025",
-        "leagueName":  "פרמייר ליג",
-        "teamEn":  "Manchester City",
-        "sizes":  [
-                      "S",
-                      "M",
-                      "L",
-                      "XL",
-                      "XXL"
-                  ],
-        "tags":  [
-                     "חדש",
-                     "פופולרי"
-                 ],
-        "name":  "חולצת מנצ\u0027סטר סיטי בית 2024/25",
-        "type":  "home",
-        "images":  [
-                       "mancity-home-2025.jpg"
-                   ],
-        "league":  "premier-league",
-        "isWorldCupSpecial":  false,
-        "year":  2025,
-        "featured":  true,
-        "typeName":  "בית"
-    },
-    {
-        "team":  "מנצ\u0027סטר סיטי",
-        "id":  "premier-league-mancity-away-2025",
-        "leagueName":  "פרמייר ליג",
-        "teamEn":  "Manchester City",
-        "sizes":  [
-                      "S",
-                      "M",
-                      "L",
-                      "XL"
-                  ],
-        "tags":  [
-                     "חדש"
-                 ],
-        "name":  "חולצת מנצ\u0027סטר סיטי חוץ 2024/25",
-        "type":  "away",
-        "images":  [
-                       "mancity-away-2025.jpg"
-                   ],
-        "league":  "premier-league",
-        "isWorldCupSpecial":  false,
-        "year":  2025,
-        "featured":  false,
-        "typeName":  "חוץ"
-    },
-    {
-        "team":  "מנצ\u0027סטר סיטי",
-        "id":  "premier-league-mancity-third-2025",
-        "leagueName":  "פרמייר ליג",
-        "teamEn":  "Manchester City",
-        "sizes":  [
-                      "S",
-                      "M",
-                      "L",
-                      "XL"
-                  ],
-        "tags":  [
-                     "חדש"
-                 ],
-        "name":  "חולצת מנצ\u0027סטר סיטי שלישית 2024/25",
-        "type":  "third",
-        "images":  [
-                       "mancity-third-2025.jpg"
-                   ],
-        "league":  "premier-league",
-        "isWorldCupSpecial":  false,
-        "year":  2025,
-        "featured":  false,
-        "typeName":  "שלישית"
-    },
-    {
-        "team":  "מנצ\u0027סטר סיטי",
-        "id":  "premier-league-mancity-retro-2006",
-        "leagueName":  "פרמייר ליג",
-        "teamEn":  "Manchester City",
-        "sizes":  [
-                      "S",
-                      "M",
-                      "L"
-                  ],
-        "tags":  [
-                     "רטרו"
-                 ],
-        "name":  "חולצת מנצ\u0027סטר סיטי רטרו קלאסית",
-        "type":  "home",
-        "images":  [
-                       "mancity-retro.jpg"
-                   ],
-        "league":  "premier-league",
-        "isWorldCupSpecial":  false,
-        "year":  2006,
-        "featured":  false,
-        "typeName":  "בית"
-    },
-    {
-        "team":  "ארסנל",
-        "id":  "premier-league-arsenal-home-2025",
-        "leagueName":  "פרמייר ליג",
-        "teamEn":  "Arsenal",
-        "sizes":  [
-                      "S",
-                      "M",
-                      "L",
-                      "XL",
-                      "XXL"
-                  ],
-        "tags":  [
-                     "חדש",
-                     "פופולרי"
-                 ],
-        "name":  "חולצת ארסנל בית 2024/25",
-        "type":  "home",
-        "images":  [
-                       "arsenal-home-2025.jpg"
-                   ],
-        "league":  "premier-league",
-        "isWorldCupSpecial":  false,
-        "year":  2025,
-        "featured":  true,
-        "typeName":  "בית"
-    },
-    {
-        "team":  "ארסנל",
-        "id":  "premier-league-arsenal-away-2025",
-        "leagueName":  "פרמייר ליג",
-        "teamEn":  "Arsenal",
-        "sizes":  [
-                      "S",
-                      "M",
-                      "L",
-                      "XL"
-                  ],
-        "tags":  [
-                     "חדש"
-                 ],
-        "name":  "חולצת ארסנל חוץ 2024/25",
-        "type":  "away",
-        "images":  [
-                       "arsenal-away-2025.jpg"
-                   ],
-        "league":  "premier-league",
-        "isWorldCupSpecial":  false,
-        "year":  2025,
-        "featured":  false,
-        "typeName":  "חוץ"
-    },
-    {
-        "team":  "ארסנל",
-        "id":  "premier-league-arsenal-third-2025",
-        "leagueName":  "פרמייר ליג",
-        "teamEn":  "Arsenal",
-        "sizes":  [
-                      "S",
-                      "M",
-                      "L",
-                      "XL"
-                  ],
-        "tags":  [
-                     "חדש"
-                 ],
-        "name":  "חולצת ארסנל שלישית 2024/25",
-        "type":  "third",
-        "images":  [
-                       "arsenal-third-2025.jpg"
-                   ],
-        "league":  "premier-league",
-        "isWorldCupSpecial":  false,
-        "year":  2025,
-        "featured":  false,
-        "typeName":  "שלישית"
-    },
-    {
-        "team":  "ארסנל",
-        "id":  "premier-league-arsenal-retro-2006",
-        "leagueName":  "פרמייר ליג",
-        "teamEn":  "Arsenal",
-        "sizes":  [
-                      "S",
-                      "M",
-                      "L"
-                  ],
-        "tags":  [
-                     "רטרו"
-                 ],
-        "name":  "חולצת ארסנל רטרו קלאסית",
-        "type":  "home",
-        "images":  [
-                       "arsenal-retro.jpg"
-                   ],
-        "league":  "premier-league",
-        "isWorldCupSpecial":  false,
-        "year":  2006,
-        "featured":  false,
-        "typeName":  "בית"
-    },
-    {
-        "team":  "ליברפול",
-        "id":  "premier-league-liverpool-home-2025",
-        "leagueName":  "פרמייר ליג",
-        "teamEn":  "Liverpool",
-        "sizes":  [
-                      "S",
-                      "M",
-                      "L",
-                      "XL",
-                      "XXL"
-                  ],
-        "tags":  [
-                     "חדש",
-                     "פופולרי"
-                 ],
-        "name":  "חולצת ליברפול בית 2024/25",
-        "type":  "home",
-        "images":  [
-                       "liverpool-home-2025.jpg"
-                   ],
-        "league":  "premier-league",
-        "isWorldCupSpecial":  false,
-        "year":  2025,
-        "featured":  true,
-        "typeName":  "בית"
-    },
-    {
-        "team":  "ליברפול",
-        "id":  "premier-league-liverpool-away-2025",
-        "leagueName":  "פרמייר ליג",
-        "teamEn":  "Liverpool",
-        "sizes":  [
-                      "S",
-                      "M",
-                      "L",
-                      "XL"
-                  ],
-        "tags":  [
-                     "חדש"
-                 ],
-        "name":  "חולצת ליברפול חוץ 2024/25",
-        "type":  "away",
-        "images":  [
-                       "liverpool-away-2025.jpg"
-                   ],
-        "league":  "premier-league",
-        "isWorldCupSpecial":  false,
-        "year":  2025,
-        "featured":  false,
-        "typeName":  "חוץ"
-    },
-    {
-        "team":  "ליברפול",
-        "id":  "premier-league-liverpool-third-2025",
-        "leagueName":  "פרמייר ליג",
-        "teamEn":  "Liverpool",
-        "sizes":  [
-                      "S",
-                      "M",
-                      "L",
-                      "XL"
-                  ],
-        "tags":  [
-                     "חדש"
-                 ],
-        "name":  "חולצת ליברפול שלישית 2024/25",
-        "type":  "third",
-        "images":  [
-                       "liverpool-third-2025.jpg"
-                   ],
-        "league":  "premier-league",
-        "isWorldCupSpecial":  false,
-        "year":  2025,
-        "featured":  false,
-        "typeName":  "שלישית"
-    },
-    {
-        "team":  "ליברפול",
-        "id":  "premier-league-liverpool-retro-2006",
-        "leagueName":  "פרמייר ליג",
-        "teamEn":  "Liverpool",
-        "sizes":  [
-                      "S",
-                      "M",
-                      "L"
-                  ],
-        "tags":  [
-                     "רטרו"
-                 ],
-        "name":  "חולצת ליברפול רטרו קלאסית",
-        "type":  "home",
-        "images":  [
-                       "liverpool-retro.jpg"
-                   ],
-        "league":  "premier-league",
-        "isWorldCupSpecial":  false,
-        "year":  2006,
-        "featured":  false,
-        "typeName":  "בית"
-    },
-    {
-        "team":  "צ\u0027לסי",
-        "id":  "premier-league-chelsea-home-2025",
-        "leagueName":  "פרמייר ליג",
-        "teamEn":  "Chelsea",
-        "sizes":  [
-                      "S",
-                      "M",
-                      "L",
-                      "XL",
-                      "XXL"
-                  ],
-        "tags":  [
-                     "חדש",
-                     "פופולרי"
-                 ],
-        "name":  "חולצת צ\u0027לסי בית 2024/25",
-        "type":  "home",
-        "images":  [
-                       "chelsea-home-2025.jpg"
-                   ],
-        "league":  "premier-league",
-        "isWorldCupSpecial":  false,
-        "year":  2025,
-        "featured":  true,
-        "typeName":  "בית"
-    },
-    {
-        "team":  "צ\u0027לסי",
-        "id":  "premier-league-chelsea-away-2025",
-        "leagueName":  "פרמייר ליג",
-        "teamEn":  "Chelsea",
-        "sizes":  [
-                      "S",
-                      "M",
-                      "L",
-                      "XL"
-                  ],
-        "tags":  [
-                     "חדש"
-                 ],
-        "name":  "חולצת צ\u0027לסי חוץ 2024/25",
-        "type":  "away",
-        "images":  [
-                       "chelsea-away-2025.jpg"
-                   ],
-        "league":  "premier-league",
-        "isWorldCupSpecial":  false,
-        "year":  2025,
-        "featured":  false,
-        "typeName":  "חוץ"
-    },
-    {
-        "team":  "צ\u0027לסי",
-        "id":  "premier-league-chelsea-third-2025",
-        "leagueName":  "פרמייר ליג",
-        "teamEn":  "Chelsea",
-        "sizes":  [
-                      "S",
-                      "M",
-                      "L",
-                      "XL"
-                  ],
-        "tags":  [
-                     "חדש"
-                 ],
-        "name":  "חולצת צ\u0027לסי שלישית 2024/25",
-        "type":  "third",
-        "images":  [
-                       "chelsea-third-2025.jpg"
-                   ],
-        "league":  "premier-league",
-        "isWorldCupSpecial":  false,
-        "year":  2025,
-        "featured":  false,
-        "typeName":  "שלישית"
-    },
-    {
-        "team":  "צ\u0027לסי",
-        "id":  "premier-league-chelsea-retro-2006",
-        "leagueName":  "פרמייר ליג",
-        "teamEn":  "Chelsea",
-        "sizes":  [
-                      "S",
-                      "M",
-                      "L"
-                  ],
-        "tags":  [
-                     "רטרו"
-                 ],
-        "name":  "חולצת צ\u0027לסי רטרו קלאסית",
-        "type":  "home",
-        "images":  [
-                       "chelsea-retro.jpg"
-                   ],
-        "league":  "premier-league",
-        "isWorldCupSpecial":  false,
-        "year":  2006,
-        "featured":  false,
-        "typeName":  "בית"
-    },
-    {
-        "team":  "מנצ\u0027סטר יונייטד",
-        "id":  "premier-league-manutd-home-2025",
-        "leagueName":  "פרמייר ליג",
-        "teamEn":  "Manchester United",
-        "sizes":  [
-                      "S",
-                      "M",
-                      "L",
-                      "XL",
-                      "XXL"
-                  ],
-        "tags":  [
-                     "חדש",
-                     "פופולרי"
-                 ],
-        "name":  "חולצת מנצ\u0027סטר יונייטד בית 2024/25",
-        "type":  "home",
-        "images":  [
-                       "manutd-home-2025.jpg"
-                   ],
-        "league":  "premier-league",
-        "isWorldCupSpecial":  false,
-        "year":  2025,
-        "featured":  true,
-        "typeName":  "בית"
-    },
-    {
-        "team":  "מנצ\u0027סטר יונייטד",
-        "id":  "premier-league-manutd-away-2025",
-        "leagueName":  "פרמייר ליג",
-        "teamEn":  "Manchester United",
-        "sizes":  [
-                      "S",
-                      "M",
-                      "L",
-                      "XL"
-                  ],
-        "tags":  [
-                     "חדש"
-                 ],
-        "name":  "חולצת מנצ\u0027סטר יונייטד חוץ 2024/25",
-        "type":  "away",
-        "images":  [
-                       "manutd-away-2025.jpg"
-                   ],
-        "league":  "premier-league",
-        "isWorldCupSpecial":  false,
-        "year":  2025,
-        "featured":  false,
-        "typeName":  "חוץ"
-    },
-    {
-        "team":  "מנצ\u0027סטר יונייטד",
-        "id":  "premier-league-manutd-third-2025",
-        "leagueName":  "פרמייר ליג",
-        "teamEn":  "Manchester United",
-        "sizes":  [
-                      "S",
-                      "M",
-                      "L",
-                      "XL"
-                  ],
-        "tags":  [
-                     "חדש"
-                 ],
-        "name":  "חולצת מנצ\u0027סטר יונייטד שלישית 2024/25",
-        "type":  "third",
-        "images":  [
-                       "manutd-third-2025.jpg"
-                   ],
-        "league":  "premier-league",
-        "isWorldCupSpecial":  false,
-        "year":  2025,
-        "featured":  false,
-        "typeName":  "שלישית"
-    },
-    {
-        "team":  "מנצ\u0027סטר יונייטד",
-        "id":  "premier-league-manutd-retro-2006",
-        "leagueName":  "פרמייר ליג",
-        "teamEn":  "Manchester United",
-        "sizes":  [
-                      "S",
-                      "M",
-                      "L"
-                  ],
-        "tags":  [
-                     "רטרו"
-                 ],
-        "name":  "חולצת מנצ\u0027סטר יונייטד רטרו קלאסית",
-        "type":  "home",
-        "images":  [
-                       "manutd-retro.jpg"
-                   ],
-        "league":  "premier-league",
-        "isWorldCupSpecial":  false,
-        "year":  2006,
-        "featured":  false,
-        "typeName":  "בית"
-    },
-    {
-        "team":  "טוטנהאם",
-        "id":  "premier-league-tottenham-home-2025",
-        "leagueName":  "פרמייר ליג",
-        "teamEn":  "Tottenham",
-        "sizes":  [
-                      "S",
-                      "M",
-                      "L",
-                      "XL",
-                      "XXL"
-                  ],
-        "tags":  [
-                     "חדש",
-                     "פופולרי"
-                 ],
-        "name":  "חולצת טוטנהאם בית 2024/25",
-        "type":  "home",
-        "images":  [
-                       "tottenham-home-2025.jpg"
-                   ],
-        "league":  "premier-league",
-        "isWorldCupSpecial":  false,
-        "year":  2025,
-        "featured":  true,
-        "typeName":  "בית"
-    },
-    {
-        "team":  "טוטנהאם",
-        "id":  "premier-league-tottenham-away-2025",
-        "leagueName":  "פרמייר ליג",
-        "teamEn":  "Tottenham",
-        "sizes":  [
-                      "S",
-                      "M",
-                      "L",
-                      "XL"
-                  ],
-        "tags":  [
-                     "חדש"
-                 ],
-        "name":  "חולצת טוטנהאם חוץ 2024/25",
-        "type":  "away",
-        "images":  [
-                       "tottenham-away-2025.jpg"
-                   ],
-        "league":  "premier-league",
-        "isWorldCupSpecial":  false,
-        "year":  2025,
-        "featured":  false,
-        "typeName":  "חוץ"
-    },
-    {
-        "team":  "טוטנהאם",
-        "id":  "premier-league-tottenham-third-2025",
-        "leagueName":  "פרמייר ליג",
-        "teamEn":  "Tottenham",
-        "sizes":  [
-                      "S",
-                      "M",
-                      "L",
-                      "XL"
-                  ],
-        "tags":  [
-                     "חדש"
-                 ],
-        "name":  "חולצת טוטנהאם שלישית 2024/25",
-        "type":  "third",
-        "images":  [
-                       "tottenham-third-2025.jpg"
-                   ],
-        "league":  "premier-league",
-        "isWorldCupSpecial":  false,
-        "year":  2025,
-        "featured":  false,
-        "typeName":  "שלישית"
-    },
-    {
-        "team":  "טוטנהאם",
-        "id":  "premier-league-tottenham-retro-2006",
-        "leagueName":  "פרמייר ליג",
-        "teamEn":  "Tottenham",
-        "sizes":  [
-                      "S",
-                      "M",
-                      "L"
-                  ],
-        "tags":  [
-                     "רטרו"
-                 ],
-        "name":  "חולצת טוטנהאם רטרו קלאסית",
-        "type":  "home",
-        "images":  [
-                       "tottenham-retro.jpg"
-                   ],
-        "league":  "premier-league",
-        "isWorldCupSpecial":  false,
-        "year":  2006,
-        "featured":  false,
-        "typeName":  "בית"
-    },
-    {
-        "team":  "ריאל מדריד",
-        "id":  "la-liga-realmadrid-home-2025",
-        "leagueName":  "לה ליגה",
-        "teamEn":  "Real Madrid",
-        "sizes":  [
-                      "S",
-                      "M",
-                      "L",
-                      "XL",
-                      "XXL"
-                  ],
-        "tags":  [
-                     "חדש",
-                     "פופולרי"
-                 ],
-        "name":  "חולצת ריאל מדריד בית 2024/25",
-        "type":  "home",
-        "images":  [
-                       "realmadrid-home-2025.jpg"
-                   ],
-        "league":  "la-liga",
-        "isWorldCupSpecial":  false,
-        "year":  2025,
-        "featured":  true,
-        "typeName":  "בית"
-    },
-    {
-        "team":  "ריאל מדריד",
-        "id":  "la-liga-realmadrid-away-2025",
-        "leagueName":  "לה ליגה",
-        "teamEn":  "Real Madrid",
-        "sizes":  [
-                      "S",
-                      "M",
-                      "L",
-                      "XL"
-                  ],
-        "tags":  [
-                     "חדש"
-                 ],
-        "name":  "חולצת ריאל מדריד חוץ 2024/25",
-        "type":  "away",
-        "images":  [
-                       "realmadrid-away-2025.jpg"
-                   ],
-        "league":  "la-liga",
-        "isWorldCupSpecial":  false,
-        "year":  2025,
-        "featured":  false,
-        "typeName":  "חוץ"
-    },
-    {
-        "team":  "ריאל מדריד",
-        "id":  "la-liga-realmadrid-third-2025",
-        "leagueName":  "לה ליגה",
-        "teamEn":  "Real Madrid",
-        "sizes":  [
-                      "S",
-                      "M",
-                      "L",
-                      "XL"
-                  ],
-        "tags":  [
-                     "חדש"
-                 ],
-        "name":  "חולצת ריאל מדריד שלישית 2024/25",
-        "type":  "third",
-        "images":  [
-                       "realmadrid-third-2025.jpg"
-                   ],
-        "league":  "la-liga",
-        "isWorldCupSpecial":  false,
-        "year":  2025,
-        "featured":  false,
-        "typeName":  "שלישית"
-    },
-    {
-        "team":  "ריאל מדריד",
-        "id":  "la-liga-realmadrid-retro-2006",
-        "leagueName":  "לה ליגה",
-        "teamEn":  "Real Madrid",
-        "sizes":  [
-                      "S",
-                      "M",
-                      "L"
-                  ],
-        "tags":  [
-                     "רטרו"
-                 ],
-        "name":  "חולצת ריאל מדריד רטרו קלאסית",
-        "type":  "home",
-        "images":  [
-                       "realmadrid-retro.jpg"
-                   ],
-        "league":  "la-liga",
-        "isWorldCupSpecial":  false,
-        "year":  2006,
-        "featured":  false,
-        "typeName":  "בית"
-    },
-    {
-        "team":  "ברצלונה",
-        "id":  "la-liga-barcelona-home-2025",
-        "leagueName":  "לה ליגה",
-        "teamEn":  "Barcelona",
-        "sizes":  [
-                      "S",
-                      "M",
-                      "L",
-                      "XL",
-                      "XXL"
-                  ],
-        "tags":  [
-                     "חדש",
-                     "פופולרי"
-                 ],
-        "name":  "חולצת ברצלונה בית 2024/25",
-        "type":  "home",
-        "images":  [
-                       "barcelona-home-2025.jpg"
-                   ],
-        "league":  "la-liga",
-        "isWorldCupSpecial":  false,
-        "year":  2025,
-        "featured":  true,
-        "typeName":  "בית"
-    },
-    {
-        "team":  "ברצלונה",
-        "id":  "la-liga-barcelona-away-2025",
-        "leagueName":  "לה ליגה",
-        "teamEn":  "Barcelona",
-        "sizes":  [
-                      "S",
-                      "M",
-                      "L",
-                      "XL"
-                  ],
-        "tags":  [
-                     "חדש"
-                 ],
-        "name":  "חולצת ברצלונה חוץ 2024/25",
-        "type":  "away",
-        "images":  [
-                       "barcelona-away-2025.jpg"
-                   ],
-        "league":  "la-liga",
-        "isWorldCupSpecial":  false,
-        "year":  2025,
-        "featured":  false,
-        "typeName":  "חוץ"
-    },
-    {
-        "team":  "ברצלונה",
-        "id":  "la-liga-barcelona-third-2025",
-        "leagueName":  "לה ליגה",
-        "teamEn":  "Barcelona",
-        "sizes":  [
-                      "S",
-                      "M",
-                      "L",
-                      "XL"
-                  ],
-        "tags":  [
-                     "חדש"
-                 ],
-        "name":  "חולצת ברצלונה שלישית 2024/25",
-        "type":  "third",
-        "images":  [
-                       "barcelona-third-2025.jpg"
-                   ],
-        "league":  "la-liga",
-        "isWorldCupSpecial":  false,
-        "year":  2025,
-        "featured":  false,
-        "typeName":  "שלישית"
-    },
-    {
-        "team":  "ברצלונה",
-        "id":  "la-liga-barcelona-retro-2006",
-        "leagueName":  "לה ליגה",
-        "teamEn":  "Barcelona",
-        "sizes":  [
-                      "S",
-                      "M",
-                      "L"
-                  ],
-        "tags":  [
-                     "רטרו"
-                 ],
-        "name":  "חולצת ברצלונה רטרו קלאסית",
-        "type":  "home",
-        "images":  [
-                       "barcelona-retro.jpg"
-                   ],
-        "league":  "la-liga",
-        "isWorldCupSpecial":  false,
-        "year":  2006,
-        "featured":  false,
-        "typeName":  "בית"
-    },
-    {
-        "team":  "אתלטיקו מדריד",
-        "id":  "la-liga-atletico-home-2025",
-        "leagueName":  "לה ליגה",
-        "teamEn":  "Atletico Madrid",
-        "sizes":  [
-                      "S",
-                      "M",
-                      "L",
-                      "XL",
-                      "XXL"
-                  ],
-        "tags":  [
-                     "חדש",
-                     "פופולרי"
-                 ],
-        "name":  "חולצת אתלטיקו מדריד בית 2024/25",
-        "type":  "home",
-        "images":  [
-                       "atletico-home-2025.jpg"
-                   ],
-        "league":  "la-liga",
-        "isWorldCupSpecial":  false,
-        "year":  2025,
-        "featured":  true,
-        "typeName":  "בית"
-    },
-    {
-        "team":  "אתלטיקו מדריד",
-        "id":  "la-liga-atletico-away-2025",
-        "leagueName":  "לה ליגה",
-        "teamEn":  "Atletico Madrid",
-        "sizes":  [
-                      "S",
-                      "M",
-                      "L",
-                      "XL"
-                  ],
-        "tags":  [
-                     "חדש"
-                 ],
-        "name":  "חולצת אתלטיקו מדריד חוץ 2024/25",
-        "type":  "away",
-        "images":  [
-                       "atletico-away-2025.jpg"
-                   ],
-        "league":  "la-liga",
-        "isWorldCupSpecial":  false,
-        "year":  2025,
-        "featured":  false,
-        "typeName":  "חוץ"
-    },
-    {
-        "team":  "אתלטיקו מדריד",
-        "id":  "la-liga-atletico-third-2025",
-        "leagueName":  "לה ליגה",
-        "teamEn":  "Atletico Madrid",
-        "sizes":  [
-                      "S",
-                      "M",
-                      "L",
-                      "XL"
-                  ],
-        "tags":  [
-                     "חדש"
-                 ],
-        "name":  "חולצת אתלטיקו מדריד שלישית 2024/25",
-        "type":  "third",
-        "images":  [
-                       "atletico-third-2025.jpg"
-                   ],
-        "league":  "la-liga",
-        "isWorldCupSpecial":  false,
-        "year":  2025,
-        "featured":  false,
-        "typeName":  "שלישית"
-    },
-    {
-        "team":  "אתלטיקו מדריד",
-        "id":  "la-liga-atletico-retro-2006",
-        "leagueName":  "לה ליגה",
-        "teamEn":  "Atletico Madrid",
-        "sizes":  [
-                      "S",
-                      "M",
-                      "L"
-                  ],
-        "tags":  [
-                     "רטרו"
-                 ],
-        "name":  "חולצת אתלטיקו מדריד רטרו קלאסית",
-        "type":  "home",
-        "images":  [
-                       "atletico-retro.jpg"
-                   ],
-        "league":  "la-liga",
-        "isWorldCupSpecial":  false,
-        "year":  2006,
-        "featured":  false,
-        "typeName":  "בית"
-    },
-    {
-        "team":  "אינטר מילאן",
-        "id":  "serie-a-inter-home-2025",
-        "leagueName":  "סריה A",
-        "teamEn":  "Inter Milan",
-        "sizes":  [
-                      "S",
-                      "M",
-                      "L",
-                      "XL",
-                      "XXL"
-                  ],
-        "tags":  [
-                     "חדש",
-                     "פופולרי"
-                 ],
-        "name":  "חולצת אינטר מילאן בית 2024/25",
-        "type":  "home",
-        "images":  [
-                       "inter-home-2025.jpg"
-                   ],
-        "league":  "serie-a",
-        "isWorldCupSpecial":  false,
-        "year":  2025,
-        "featured":  true,
-        "typeName":  "בית"
-    },
-    {
-        "team":  "אינטר מילאן",
-        "id":  "serie-a-inter-away-2025",
-        "leagueName":  "סריה A",
-        "teamEn":  "Inter Milan",
-        "sizes":  [
-                      "S",
-                      "M",
-                      "L",
-                      "XL"
-                  ],
-        "tags":  [
-                     "חדש"
-                 ],
-        "name":  "חולצת אינטר מילאן חוץ 2024/25",
-        "type":  "away",
-        "images":  [
-                       "inter-away-2025.jpg"
-                   ],
-        "league":  "serie-a",
-        "isWorldCupSpecial":  false,
-        "year":  2025,
-        "featured":  false,
-        "typeName":  "חוץ"
-    },
-    {
-        "team":  "אינטר מילאן",
-        "id":  "serie-a-inter-third-2025",
-        "leagueName":  "סריה A",
-        "teamEn":  "Inter Milan",
-        "sizes":  [
-                      "S",
-                      "M",
-                      "L",
-                      "XL"
-                  ],
-        "tags":  [
-                     "חדש"
-                 ],
-        "name":  "חולצת אינטר מילאן שלישית 2024/25",
-        "type":  "third",
-        "images":  [
-                       "inter-third-2025.jpg"
-                   ],
-        "league":  "serie-a",
-        "isWorldCupSpecial":  false,
-        "year":  2025,
-        "featured":  false,
-        "typeName":  "שלישית"
-    },
-    {
-        "team":  "אינטר מילאן",
-        "id":  "serie-a-inter-retro-2006",
-        "leagueName":  "סריה A",
-        "teamEn":  "Inter Milan",
-        "sizes":  [
-                      "S",
-                      "M",
-                      "L"
-                  ],
-        "tags":  [
-                     "רטרו"
-                 ],
-        "name":  "חולצת אינטר מילאן רטרו קלאסית",
-        "type":  "home",
-        "images":  [
-                       "inter-retro.jpg"
-                   ],
-        "league":  "serie-a",
-        "isWorldCupSpecial":  false,
-        "year":  2006,
-        "featured":  false,
-        "typeName":  "בית"
-    },
-    {
-        "team":  "מילאן",
-        "id":  "serie-a-acmilan-home-2025",
-        "leagueName":  "סריה A",
-        "teamEn":  "AC Milan",
-        "sizes":  [
-                      "S",
-                      "M",
-                      "L",
-                      "XL",
-                      "XXL"
-                  ],
-        "tags":  [
-                     "חדש",
-                     "פופולרי"
-                 ],
-        "name":  "חולצת מילאן בית 2024/25",
-        "type":  "home",
-        "images":  [
-                       "acmilan-home-2025.jpg"
-                   ],
-        "league":  "serie-a",
-        "isWorldCupSpecial":  false,
-        "year":  2025,
-        "featured":  true,
-        "typeName":  "בית"
-    },
-    {
-        "team":  "מילאן",
-        "id":  "serie-a-acmilan-away-2025",
-        "leagueName":  "סריה A",
-        "teamEn":  "AC Milan",
-        "sizes":  [
-                      "S",
-                      "M",
-                      "L",
-                      "XL"
-                  ],
-        "tags":  [
-                     "חדש"
-                 ],
-        "name":  "חולצת מילאן חוץ 2024/25",
-        "type":  "away",
-        "images":  [
-                       "acmilan-away-2025.jpg"
-                   ],
-        "league":  "serie-a",
-        "isWorldCupSpecial":  false,
-        "year":  2025,
-        "featured":  false,
-        "typeName":  "חוץ"
-    },
-    {
-        "team":  "מילאן",
-        "id":  "serie-a-acmilan-third-2025",
-        "leagueName":  "סריה A",
-        "teamEn":  "AC Milan",
-        "sizes":  [
-                      "S",
-                      "M",
-                      "L",
-                      "XL"
-                  ],
-        "tags":  [
-                     "חדש"
-                 ],
-        "name":  "חולצת מילאן שלישית 2024/25",
-        "type":  "third",
-        "images":  [
-                       "acmilan-third-2025.jpg"
-                   ],
-        "league":  "serie-a",
-        "isWorldCupSpecial":  false,
-        "year":  2025,
-        "featured":  false,
-        "typeName":  "שלישית"
-    },
-    {
-        "team":  "מילאן",
-        "id":  "serie-a-acmilan-retro-2006",
-        "leagueName":  "סריה A",
-        "teamEn":  "AC Milan",
-        "sizes":  [
-                      "S",
-                      "M",
-                      "L"
-                  ],
-        "tags":  [
-                     "רטרו"
-                 ],
-        "name":  "חולצת מילאן רטרו קלאסית",
-        "type":  "home",
-        "images":  [
-                       "acmilan-retro.jpg"
-                   ],
-        "league":  "serie-a",
-        "isWorldCupSpecial":  false,
-        "year":  2006,
-        "featured":  false,
-        "typeName":  "בית"
-    },
-    {
-        "team":  "יובנטוס",
-        "id":  "serie-a-juventus-home-2025",
-        "leagueName":  "סריה A",
-        "teamEn":  "Juventus",
-        "sizes":  [
-                      "S",
-                      "M",
-                      "L",
-                      "XL",
-                      "XXL"
-                  ],
-        "tags":  [
-                     "חדש",
-                     "פופולרי"
-                 ],
-        "name":  "חולצת יובנטוס בית 2024/25",
-        "type":  "home",
-        "images":  [
-                       "juventus-home-2025.jpg"
-                   ],
-        "league":  "serie-a",
-        "isWorldCupSpecial":  false,
-        "year":  2025,
-        "featured":  true,
-        "typeName":  "בית"
-    },
-    {
-        "team":  "יובנטוס",
-        "id":  "serie-a-juventus-away-2025",
-        "leagueName":  "סריה A",
-        "teamEn":  "Juventus",
-        "sizes":  [
-                      "S",
-                      "M",
-                      "L",
-                      "XL"
-                  ],
-        "tags":  [
-                     "חדש"
-                 ],
-        "name":  "חולצת יובנטוס חוץ 2024/25",
-        "type":  "away",
-        "images":  [
-                       "juventus-away-2025.jpg"
-                   ],
-        "league":  "serie-a",
-        "isWorldCupSpecial":  false,
-        "year":  2025,
-        "featured":  false,
-        "typeName":  "חוץ"
-    },
-    {
-        "team":  "יובנטוס",
-        "id":  "serie-a-juventus-third-2025",
-        "leagueName":  "סריה A",
-        "teamEn":  "Juventus",
-        "sizes":  [
-                      "S",
-                      "M",
-                      "L",
-                      "XL"
-                  ],
-        "tags":  [
-                     "חדש"
-                 ],
-        "name":  "חולצת יובנטוס שלישית 2024/25",
-        "type":  "third",
-        "images":  [
-                       "juventus-third-2025.jpg"
-                   ],
-        "league":  "serie-a",
-        "isWorldCupSpecial":  false,
-        "year":  2025,
-        "featured":  false,
-        "typeName":  "שלישית"
-    },
-    {
-        "team":  "יובנטוס",
-        "id":  "serie-a-juventus-retro-2006",
-        "leagueName":  "סריה A",
-        "teamEn":  "Juventus",
-        "sizes":  [
-                      "S",
-                      "M",
-                      "L"
-                  ],
-        "tags":  [
-                     "רטרו"
-                 ],
-        "name":  "חולצת יובנטוס רטרו קלאסית",
-        "type":  "home",
-        "images":  [
-                       "juventus-retro.jpg"
-                   ],
-        "league":  "serie-a",
-        "isWorldCupSpecial":  false,
-        "year":  2006,
-        "featured":  false,
-        "typeName":  "בית"
-    },
-    {
-        "team":  "נאפולי",
-        "id":  "serie-a-napoli-home-2025",
-        "leagueName":  "סריה A",
-        "teamEn":  "Napoli",
-        "sizes":  [
-                      "S",
-                      "M",
-                      "L",
-                      "XL",
-                      "XXL"
-                  ],
-        "tags":  [
-                     "חדש",
-                     "פופולרי"
-                 ],
-        "name":  "חולצת נאפולי בית 2024/25",
-        "type":  "home",
-        "images":  [
-                       "napoli-home-2025.jpg"
-                   ],
-        "league":  "serie-a",
-        "isWorldCupSpecial":  false,
-        "year":  2025,
-        "featured":  true,
-        "typeName":  "בית"
-    },
-    {
-        "team":  "נאפולי",
-        "id":  "serie-a-napoli-away-2025",
-        "leagueName":  "סריה A",
-        "teamEn":  "Napoli",
-        "sizes":  [
-                      "S",
-                      "M",
-                      "L",
-                      "XL"
-                  ],
-        "tags":  [
-                     "חדש"
-                 ],
-        "name":  "חולצת נאפולי חוץ 2024/25",
-        "type":  "away",
-        "images":  [
-                       "napoli-away-2025.jpg"
-                   ],
-        "league":  "serie-a",
-        "isWorldCupSpecial":  false,
-        "year":  2025,
-        "featured":  false,
-        "typeName":  "חוץ"
-    },
-    {
-        "team":  "נאפולי",
-        "id":  "serie-a-napoli-third-2025",
-        "leagueName":  "סריה A",
-        "teamEn":  "Napoli",
-        "sizes":  [
-                      "S",
-                      "M",
-                      "L",
-                      "XL"
-                  ],
-        "tags":  [
-                     "חדש"
-                 ],
-        "name":  "חולצת נאפולי שלישית 2024/25",
-        "type":  "third",
-        "images":  [
-                       "napoli-third-2025.jpg"
-                   ],
-        "league":  "serie-a",
-        "isWorldCupSpecial":  false,
-        "year":  2025,
-        "featured":  false,
-        "typeName":  "שלישית"
-    },
-    {
-        "team":  "נאפולי",
-        "id":  "serie-a-napoli-retro-2006",
-        "leagueName":  "סריה A",
-        "teamEn":  "Napoli",
-        "sizes":  [
-                      "S",
-                      "M",
-                      "L"
-                  ],
-        "tags":  [
-                     "רטרו"
-                 ],
-        "name":  "חולצת נאפולי רטרו קלאסית",
-        "type":  "home",
-        "images":  [
-                       "napoli-retro.jpg"
-                   ],
-        "league":  "serie-a",
-        "isWorldCupSpecial":  false,
-        "year":  2006,
-        "featured":  false,
-        "typeName":  "בית"
-    },
-    {
-        "team":  "באיירן מינכן",
-        "id":  "bundesliga-bayern-home-2025",
-        "leagueName":  "בונדסליגה",
-        "teamEn":  "Bayern Munich",
-        "sizes":  [
-                      "S",
-                      "M",
-                      "L",
-                      "XL",
-                      "XXL"
-                  ],
-        "tags":  [
-                     "חדש",
-                     "פופולרי"
-                 ],
-        "name":  "חולצת באיירן מינכן בית 2024/25",
-        "type":  "home",
-        "images":  [
-                       "bayern-home-2025.jpg"
-                   ],
-        "league":  "bundesliga",
-        "isWorldCupSpecial":  false,
-        "year":  2025,
-        "featured":  true,
-        "typeName":  "בית"
-    },
-    {
-        "team":  "באיירן מינכן",
-        "id":  "bundesliga-bayern-away-2025",
-        "leagueName":  "בונדסליגה",
-        "teamEn":  "Bayern Munich",
-        "sizes":  [
-                      "S",
-                      "M",
-                      "L",
-                      "XL"
-                  ],
-        "tags":  [
-                     "חדש"
-                 ],
-        "name":  "חולצת באיירן מינכן חוץ 2024/25",
-        "type":  "away",
-        "images":  [
-                       "bayern-away-2025.jpg"
-                   ],
-        "league":  "bundesliga",
-        "isWorldCupSpecial":  false,
-        "year":  2025,
-        "featured":  false,
-        "typeName":  "חוץ"
-    },
-    {
-        "team":  "באיירן מינכן",
-        "id":  "bundesliga-bayern-third-2025",
-        "leagueName":  "בונדסליגה",
-        "teamEn":  "Bayern Munich",
-        "sizes":  [
-                      "S",
-                      "M",
-                      "L",
-                      "XL"
-                  ],
-        "tags":  [
-                     "חדש"
-                 ],
-        "name":  "חולצת באיירן מינכן שלישית 2024/25",
-        "type":  "third",
-        "images":  [
-                       "bayern-third-2025.jpg"
-                   ],
-        "league":  "bundesliga",
-        "isWorldCupSpecial":  false,
-        "year":  2025,
-        "featured":  false,
-        "typeName":  "שלישית"
-    },
-    {
-        "team":  "באיירן מינכן",
-        "id":  "bundesliga-bayern-retro-2006",
-        "leagueName":  "בונדסליגה",
-        "teamEn":  "Bayern Munich",
-        "sizes":  [
-                      "S",
-                      "M",
-                      "L"
-                  ],
-        "tags":  [
-                     "רטרו"
-                 ],
-        "name":  "חולצת באיירן מינכן רטרו קלאסית",
-        "type":  "home",
-        "images":  [
-                       "bayern-retro.jpg"
-                   ],
-        "league":  "bundesliga",
-        "isWorldCupSpecial":  false,
-        "year":  2006,
-        "featured":  false,
-        "typeName":  "בית"
-    },
-    {
-        "team":  "בורוסיה דורטמונד",
-        "id":  "bundesliga-dortmund-home-2025",
-        "leagueName":  "בונדסליגה",
-        "teamEn":  "Borussia Dortmund",
-        "sizes":  [
-                      "S",
-                      "M",
-                      "L",
-                      "XL",
-                      "XXL"
-                  ],
-        "tags":  [
-                     "חדש",
-                     "פופולרי"
-                 ],
-        "name":  "חולצת בורוסיה דורטמונד בית 2024/25",
-        "type":  "home",
-        "images":  [
-                       "dortmund-home-2025.jpg"
-                   ],
-        "league":  "bundesliga",
-        "isWorldCupSpecial":  false,
-        "year":  2025,
-        "featured":  true,
-        "typeName":  "בית"
-    },
-    {
-        "team":  "בורוסיה דורטמונד",
-        "id":  "bundesliga-dortmund-away-2025",
-        "leagueName":  "בונדסליגה",
-        "teamEn":  "Borussia Dortmund",
-        "sizes":  [
-                      "S",
-                      "M",
-                      "L",
-                      "XL"
-                  ],
-        "tags":  [
-                     "חדש"
-                 ],
-        "name":  "חולצת בורוסיה דורטמונד חוץ 2024/25",
-        "type":  "away",
-        "images":  [
-                       "dortmund-away-2025.jpg"
-                   ],
-        "league":  "bundesliga",
-        "isWorldCupSpecial":  false,
-        "year":  2025,
-        "featured":  false,
-        "typeName":  "חוץ"
-    },
-    {
-        "team":  "בורוסיה דורטמונד",
-        "id":  "bundesliga-dortmund-third-2025",
-        "leagueName":  "בונדסליגה",
-        "teamEn":  "Borussia Dortmund",
-        "sizes":  [
-                      "S",
-                      "M",
-                      "L",
-                      "XL"
-                  ],
-        "tags":  [
-                     "חדש"
-                 ],
-        "name":  "חולצת בורוסיה דורטמונד שלישית 2024/25",
-        "type":  "third",
-        "images":  [
-                       "dortmund-third-2025.jpg"
-                   ],
-        "league":  "bundesliga",
-        "isWorldCupSpecial":  false,
-        "year":  2025,
-        "featured":  false,
-        "typeName":  "שלישית"
-    },
-    {
-        "team":  "בורוסיה דורטמונד",
-        "id":  "bundesliga-dortmund-retro-2006",
-        "leagueName":  "בונדסליגה",
-        "teamEn":  "Borussia Dortmund",
-        "sizes":  [
-                      "S",
-                      "M",
-                      "L"
-                  ],
-        "tags":  [
-                     "רטרו"
-                 ],
-        "name":  "חולצת בורוסיה דורטמונד רטרו קלאסית",
-        "type":  "home",
-        "images":  [
-                       "dortmund-retro.jpg"
-                   ],
-        "league":  "bundesliga",
-        "isWorldCupSpecial":  false,
-        "year":  2006,
-        "featured":  false,
-        "typeName":  "בית"
-    },
-    {
-        "team":  "באייר לברקוזן",
-        "id":  "bundesliga-leverkusen-home-2025",
-        "leagueName":  "בונדסליגה",
-        "teamEn":  "Bayer Leverkusen",
-        "sizes":  [
-                      "S",
-                      "M",
-                      "L",
-                      "XL",
-                      "XXL"
-                  ],
-        "tags":  [
-                     "חדש",
-                     "פופולרי"
-                 ],
-        "name":  "חולצת באייר לברקוזן בית 2024/25",
-        "type":  "home",
-        "images":  [
-                       "leverkusen-home-2025.jpg"
-                   ],
-        "league":  "bundesliga",
-        "isWorldCupSpecial":  false,
-        "year":  2025,
-        "featured":  true,
-        "typeName":  "בית"
-    },
-    {
-        "team":  "באייר לברקוזן",
-        "id":  "bundesliga-leverkusen-away-2025",
-        "leagueName":  "בונדסליגה",
-        "teamEn":  "Bayer Leverkusen",
-        "sizes":  [
-                      "S",
-                      "M",
-                      "L",
-                      "XL"
-                  ],
-        "tags":  [
-                     "חדש"
-                 ],
-        "name":  "חולצת באייר לברקוזן חוץ 2024/25",
-        "type":  "away",
-        "images":  [
-                       "leverkusen-away-2025.jpg"
-                   ],
-        "league":  "bundesliga",
-        "isWorldCupSpecial":  false,
-        "year":  2025,
-        "featured":  false,
-        "typeName":  "חוץ"
-    },
-    {
-        "team":  "באייר לברקוזן",
-        "id":  "bundesliga-leverkusen-third-2025",
-        "leagueName":  "בונדסליגה",
-        "teamEn":  "Bayer Leverkusen",
-        "sizes":  [
-                      "S",
-                      "M",
-                      "L",
-                      "XL"
-                  ],
-        "tags":  [
-                     "חדש"
-                 ],
-        "name":  "חולצת באייר לברקוזן שלישית 2024/25",
-        "type":  "third",
-        "images":  [
-                       "leverkusen-third-2025.jpg"
-                   ],
-        "league":  "bundesliga",
-        "isWorldCupSpecial":  false,
-        "year":  2025,
-        "featured":  false,
-        "typeName":  "שלישית"
-    },
-    {
-        "team":  "באייר לברקוזן",
-        "id":  "bundesliga-leverkusen-retro-2006",
-        "leagueName":  "בונדסליגה",
-        "teamEn":  "Bayer Leverkusen",
-        "sizes":  [
-                      "S",
-                      "M",
-                      "L"
-                  ],
-        "tags":  [
-                     "רטרו"
-                 ],
-        "name":  "חולצת באייר לברקוזן רטרו קלאסית",
-        "type":  "home",
-        "images":  [
-                       "leverkusen-retro.jpg"
-                   ],
-        "league":  "bundesliga",
-        "isWorldCupSpecial":  false,
-        "year":  2006,
-        "featured":  false,
-        "typeName":  "בית"
-    },
-    {
-        "team":  "פריז סן ז\u0027רמן",
-        "id":  "ligue-1-psg-home-2025",
-        "leagueName":  "ליג 1",
-        "teamEn":  "PSG",
-        "sizes":  [
-                      "S",
-                      "M",
-                      "L",
-                      "XL",
-                      "XXL"
-                  ],
-        "tags":  [
-                     "חדש",
-                     "פופולרי"
-                 ],
-        "name":  "חולצת פריז סן ז\u0027רמן בית 2024/25",
-        "type":  "home",
-        "images":  [
-                       "psg-home-2025.jpg"
-                   ],
-        "league":  "ligue-1",
-        "isWorldCupSpecial":  false,
-        "year":  2025,
-        "featured":  true,
-        "typeName":  "בית"
-    },
-    {
-        "team":  "פריז סן ז\u0027רמן",
-        "id":  "ligue-1-psg-away-2025",
-        "leagueName":  "ליג 1",
-        "teamEn":  "PSG",
-        "sizes":  [
-                      "S",
-                      "M",
-                      "L",
-                      "XL"
-                  ],
-        "tags":  [
-                     "חדש"
-                 ],
-        "name":  "חולצת פריז סן ז\u0027רמן חוץ 2024/25",
-        "type":  "away",
-        "images":  [
-                       "psg-away-2025.jpg"
-                   ],
-        "league":  "ligue-1",
-        "isWorldCupSpecial":  false,
-        "year":  2025,
-        "featured":  false,
-        "typeName":  "חוץ"
-    },
-    {
-        "team":  "פריז סן ז\u0027רמן",
-        "id":  "ligue-1-psg-third-2025",
-        "leagueName":  "ליג 1",
-        "teamEn":  "PSG",
-        "sizes":  [
-                      "S",
-                      "M",
-                      "L",
-                      "XL"
-                  ],
-        "tags":  [
-                     "חדש"
-                 ],
-        "name":  "חולצת פריז סן ז\u0027רמן שלישית 2024/25",
-        "type":  "third",
-        "images":  [
-                       "psg-third-2025.jpg"
-                   ],
-        "league":  "ligue-1",
-        "isWorldCupSpecial":  false,
-        "year":  2025,
-        "featured":  false,
-        "typeName":  "שלישית"
-    },
-    {
-        "team":  "פריז סן ז\u0027רמן",
-        "id":  "ligue-1-psg-retro-2006",
-        "leagueName":  "ליג 1",
-        "teamEn":  "PSG",
-        "sizes":  [
-                      "S",
-                      "M",
-                      "L"
-                  ],
-        "tags":  [
-                     "רטרו"
-                 ],
-        "name":  "חולצת פריז סן ז\u0027רמן רטרו קלאסית",
-        "type":  "home",
-        "images":  [
-                       "psg-retro.jpg"
-                   ],
-        "league":  "ligue-1",
-        "isWorldCupSpecial":  false,
-        "year":  2006,
-        "featured":  false,
-        "typeName":  "בית"
-    },
-    {
-        "team":  "ארגנטינה",
-        "id":  "wc2026-argentina-home",
-        "leagueName":  "גביע העולם",
-        "teamEn":  "Argentina",
-        "sizes":  [
-                      "S",
-                      "M",
-                      "L",
-                      "XL"
-                  ],
-        "tags":  [
-                     "מונדיאל",
-                     "הנבחרת"
-                 ],
-        "name":  "חולצת נבחרת ארגנטינה בית 2026",
-        "type":  "home",
-        "images":  [
-                       "argentina-home-2026.jpg"
-                   ],
-        "league":  "world-cup",
-        "isWorldCupSpecial":  true,
-        "year":  2026,
-        "featured":  true,
-        "typeName":  "בית"
-    },
-    {
-        "team":  "ארגנטינה",
-        "id":  "wc2026-argentina-away",
-        "leagueName":  "גביע העולם",
-        "teamEn":  "Argentina",
-        "sizes":  [
-                      "S",
-                      "M",
-                      "L",
-                      "XL"
-                  ],
-        "tags":  [
-                     "מונדיאל",
-                     "הנבחרת"
-                 ],
-        "name":  "חולצת נבחרת ארגנטינה חוץ 2026",
-        "type":  "away",
-        "images":  [
-                       "argentina-away-2026.jpg"
-                   ],
-        "league":  "world-cup",
-        "isWorldCupSpecial":  true,
-        "year":  2026,
-        "featured":  false,
-        "typeName":  "חוץ"
-    },
-    {
-        "team":  "ברזיל",
-        "id":  "wc2026-brazil-home",
-        "leagueName":  "גביע העולם",
-        "teamEn":  "Brazil",
-        "sizes":  [
-                      "S",
-                      "M",
-                      "L",
-                      "XL"
-                  ],
-        "tags":  [
-                     "מונדיאל",
-                     "הנבחרת"
-                 ],
-        "name":  "חולצת נבחרת ברזיל בית 2026",
-        "type":  "home",
-        "images":  [
-                       "brazil-home-2026.jpg"
-                   ],
-        "league":  "world-cup",
-        "isWorldCupSpecial":  true,
-        "year":  2026,
-        "featured":  true,
-        "typeName":  "בית"
-    },
-    {
-        "team":  "ברזיל",
-        "id":  "wc2026-brazil-away",
-        "leagueName":  "גביע העולם",
-        "teamEn":  "Brazil",
-        "sizes":  [
-                      "S",
-                      "M",
-                      "L",
-                      "XL"
-                  ],
-        "tags":  [
-                     "מונדיאל",
-                     "הנבחרת"
-                 ],
-        "name":  "חולצת נבחרת ברזיל חוץ 2026",
-        "type":  "away",
-        "images":  [
-                       "brazil-away-2026.jpg"
-                   ],
-        "league":  "world-cup",
-        "isWorldCupSpecial":  true,
-        "year":  2026,
-        "featured":  false,
-        "typeName":  "חוץ"
-    },
-    {
-        "team":  "צרפת",
-        "id":  "wc2026-france-home",
-        "leagueName":  "גביע העולם",
-        "teamEn":  "France",
-        "sizes":  [
-                      "S",
-                      "M",
-                      "L",
-                      "XL"
-                  ],
-        "tags":  [
-                     "מונדיאל",
-                     "הנבחרת"
-                 ],
-        "name":  "חולצת נבחרת צרפת בית 2026",
-        "type":  "home",
-        "images":  [
-                       "france-home-2026.jpg"
-                   ],
-        "league":  "world-cup",
-        "isWorldCupSpecial":  true,
-        "year":  2026,
-        "featured":  true,
-        "typeName":  "בית"
-    },
-    {
-        "team":  "צרפת",
-        "id":  "wc2026-france-away",
-        "leagueName":  "גביע העולם",
-        "teamEn":  "France",
-        "sizes":  [
-                      "S",
-                      "M",
-                      "L",
-                      "XL"
-                  ],
-        "tags":  [
-                     "מונדיאל",
-                     "הנבחרת"
-                 ],
-        "name":  "חולצת נבחרת צרפת חוץ 2026",
-        "type":  "away",
-        "images":  [
-                       "france-away-2026.jpg"
-                   ],
-        "league":  "world-cup",
-        "isWorldCupSpecial":  true,
-        "year":  2026,
-        "featured":  false,
-        "typeName":  "חוץ"
-    },
-    {
-        "team":  "גרמניה",
-        "id":  "wc2026-germany-home",
-        "leagueName":  "גביע העולם",
-        "teamEn":  "Germany",
-        "sizes":  [
-                      "S",
-                      "M",
-                      "L",
-                      "XL"
-                  ],
-        "tags":  [
-                     "מונדיאל",
-                     "הנבחרת"
-                 ],
-        "name":  "חולצת נבחרת גרמניה בית 2026",
-        "type":  "home",
-        "images":  [
-                       "germany-home-2026.jpg"
-                   ],
-        "league":  "world-cup",
-        "isWorldCupSpecial":  true,
-        "year":  2026,
-        "featured":  true,
-        "typeName":  "בית"
-    },
-    {
-        "team":  "גרמניה",
-        "id":  "wc2026-germany-away",
-        "leagueName":  "גביע העולם",
-        "teamEn":  "Germany",
-        "sizes":  [
-                      "S",
-                      "M",
-                      "L",
-                      "XL"
-                  ],
-        "tags":  [
-                     "מונדיאל",
-                     "הנבחרת"
-                 ],
-        "name":  "חולצת נבחרת גרמניה חוץ 2026",
-        "type":  "away",
-        "images":  [
-                       "germany-away-2026.jpg"
-                   ],
-        "league":  "world-cup",
-        "isWorldCupSpecial":  true,
-        "year":  2026,
-        "featured":  false,
-        "typeName":  "חוץ"
-    },
-    {
-        "team":  "ספרד",
-        "id":  "wc2026-spain-home",
-        "leagueName":  "גביע העולם",
-        "teamEn":  "Spain",
-        "sizes":  [
-                      "S",
-                      "M",
-                      "L",
-                      "XL"
-                  ],
-        "tags":  [
-                     "מונדיאל",
-                     "הנבחרת"
-                 ],
-        "name":  "חולצת נבחרת ספרד בית 2026",
-        "type":  "home",
-        "images":  [
-                       "spain-home-2026.jpg"
-                   ],
-        "league":  "world-cup",
-        "isWorldCupSpecial":  true,
-        "year":  2026,
-        "featured":  true,
-        "typeName":  "בית"
-    },
-    {
-        "team":  "ספרד",
-        "id":  "wc2026-spain-away",
-        "leagueName":  "גביע העולם",
-        "teamEn":  "Spain",
-        "sizes":  [
-                      "S",
-                      "M",
-                      "L",
-                      "XL"
-                  ],
-        "tags":  [
-                     "מונדיאל",
-                     "הנבחרת"
-                 ],
-        "name":  "חולצת נבחרת ספרד חוץ 2026",
-        "type":  "away",
-        "images":  [
-                       "spain-away-2026.jpg"
-                   ],
-        "league":  "world-cup",
-        "isWorldCupSpecial":  true,
-        "year":  2026,
-        "featured":  false,
-        "typeName":  "חוץ"
-    },
-    {
-        "team":  "אנגליה",
-        "id":  "wc2026-england-home",
-        "leagueName":  "גביע העולם",
-        "teamEn":  "England",
-        "sizes":  [
-                      "S",
-                      "M",
-                      "L",
-                      "XL"
-                  ],
-        "tags":  [
-                     "מונדיאל",
-                     "הנבחרת"
-                 ],
-        "name":  "חולצת נבחרת אנגליה בית 2026",
-        "type":  "home",
-        "images":  [
-                       "england-home-2026.jpg"
-                   ],
-        "league":  "world-cup",
-        "isWorldCupSpecial":  true,
-        "year":  2026,
-        "featured":  true,
-        "typeName":  "בית"
-    },
-    {
-        "team":  "אנגליה",
-        "id":  "wc2026-england-away",
-        "leagueName":  "גביע העולם",
-        "teamEn":  "England",
-        "sizes":  [
-                      "S",
-                      "M",
-                      "L",
-                      "XL"
-                  ],
-        "tags":  [
-                     "מונדיאל",
-                     "הנבחרת"
-                 ],
-        "name":  "חולצת נבחרת אנגליה חוץ 2026",
-        "type":  "away",
-        "images":  [
-                       "england-away-2026.jpg"
-                   ],
-        "league":  "world-cup",
-        "isWorldCupSpecial":  true,
-        "year":  2026,
-        "featured":  false,
-        "typeName":  "חוץ"
-    },
-    {
-        "team":  "פורטוגל",
-        "id":  "wc2026-portugal-home",
-        "leagueName":  "גביע העולם",
-        "teamEn":  "Portugal",
-        "sizes":  [
-                      "S",
-                      "M",
-                      "L",
-                      "XL"
-                  ],
-        "tags":  [
-                     "מונדיאל",
-                     "הנבחרת"
-                 ],
-        "name":  "חולצת נבחרת פורטוגל בית 2026",
-        "type":  "home",
-        "images":  [
-                       "portugal-home-2026.jpg"
-                   ],
-        "league":  "world-cup",
-        "isWorldCupSpecial":  true,
-        "year":  2026,
-        "featured":  true,
-        "typeName":  "בית"
-    },
-    {
-        "team":  "פורטוגל",
-        "id":  "wc2026-portugal-away",
-        "leagueName":  "גביע העולם",
-        "teamEn":  "Portugal",
-        "sizes":  [
-                      "S",
-                      "M",
-                      "L",
-                      "XL"
-                  ],
-        "tags":  [
-                     "מונדיאל",
-                     "הנבחרת"
-                 ],
-        "name":  "חולצת נבחרת פורטוגל חוץ 2026",
-        "type":  "away",
-        "images":  [
-                       "portugal-away-2026.jpg"
-                   ],
-        "league":  "world-cup",
-        "isWorldCupSpecial":  true,
-        "year":  2026,
-        "featured":  false,
-        "typeName":  "חוץ"
-    }
+  {
+    "id": "premier-league-mancity-home-2025",
+    "name": "חולצת מנצ'סטר סיטי בית 2024/25",
+    "team": "מנצ'סטר סיטי",
+    "teamEn": "Manchester City",
+    "league": "premier-league",
+    "leagueName": "פרמייר ליג",
+    "year": 2025,
+    "type": "home",
+    "typeName": "בית",
+    "isWorldCupSpecial": false,
+    "images": [
+      "mancity-home-2025.jpg"
+    ],
+    "sizes": ["S", "M", "L", "XL", "XXL"],
+    "featured": true,
+    "tags": ["חדש", "פופולרי"]
+  },
+  {
+    "id": "premier-league-mancity-away-2025",
+    "name": "חולצת מנצ'סטר סיטי חוץ 2024/25",
+    "team": "מנצ'סטר סיטי",
+    "teamEn": "Manchester City",
+    "league": "premier-league",
+    "leagueName": "פרמייר ליג",
+    "year": 2025,
+    "type": "away",
+    "typeName": "חוץ",
+    "isWorldCupSpecial": false,
+    "images": [
+      "mancity-away-2025.jpg"
+    ],
+    "sizes": ["S", "M", "L", "XL"],
+    "featured": false,
+    "tags": ["חדש"]
+  },
+  {
+    "id": "premier-league-mancity-third-2025",
+    "name": "חולצת מנצ'סטר סיטי שלישית 2024/25",
+    "team": "מנצ'סטר סיטי",
+    "teamEn": "Manchester City",
+    "league": "premier-league",
+    "leagueName": "פרמייר ליג",
+    "year": 2025,
+    "type": "third",
+    "typeName": "שלישית",
+    "isWorldCupSpecial": false,
+    "images": [
+      "mancity-third-2025.jpg"
+    ],
+    "sizes": ["S", "M", "L", "XL"],
+    "featured": false,
+    "tags": ["חדש"]
+  },
+  {
+    "id": "premier-league-mancity-retro-2006",
+    "name": "חולצת מנצ'סטר סיטי רטרו קלאסית",
+    "team": "מנצ'סטר סיטי",
+    "teamEn": "Manchester City",
+    "league": "premier-league",
+    "leagueName": "פרמייר ליג",
+    "year": 2006,
+    "type": "home",
+    "typeName": "בית",
+    "isWorldCupSpecial": false,
+    "images": [
+      "mancity-retro.jpg"
+    ],
+    "sizes": ["S", "M", "L"],
+    "featured": false,
+    "tags": ["רטרו"]
+  },
+  {
+    "id": "premier-league-arsenal-home-2025",
+    "name": "חולצת ארסנל בית 2024/25",
+    "team": "ארסנל",
+    "teamEn": "Arsenal",
+    "league": "premier-league",
+    "leagueName": "פרמייר ליג",
+    "year": 2025,
+    "type": "home",
+    "typeName": "בית",
+    "isWorldCupSpecial": false,
+    "images": [
+      "arsenal-home-2025.jpg"
+    ],
+    "sizes": ["S", "M", "L", "XL", "XXL"],
+    "featured": true,
+    "tags": ["חדש", "פופולרי"]
+  },
+  {
+    "id": "premier-league-arsenal-away-2025",
+    "name": "חולצת ארסנל חוץ 2024/25",
+    "team": "ארסנל",
+    "teamEn": "Arsenal",
+    "league": "premier-league",
+    "leagueName": "פרמייר ליג",
+    "year": 2025,
+    "type": "away",
+    "typeName": "חוץ",
+    "isWorldCupSpecial": false,
+    "images": [
+      "arsenal-away-2025.jpg"
+    ],
+    "sizes": ["S", "M", "L", "XL"],
+    "featured": false,
+    "tags": ["חדש"]
+  },
+  {
+    "id": "premier-league-arsenal-third-2025",
+    "name": "חולצת ארסנל שלישית 2024/25",
+    "team": "ארסנל",
+    "teamEn": "Arsenal",
+    "league": "premier-league",
+    "leagueName": "פרמייר ליג",
+    "year": 2025,
+    "type": "third",
+    "typeName": "שלישית",
+    "isWorldCupSpecial": false,
+    "images": [
+      "arsenal-third-2025.jpg"
+    ],
+    "sizes": ["S", "M", "L", "XL"],
+    "featured": false,
+    "tags": ["חדש"]
+  },
+  {
+    "id": "premier-league-arsenal-retro-2006",
+    "name": "חולצת ארסנל רטרו קלאסית",
+    "team": "ארסנל",
+    "teamEn": "Arsenal",
+    "league": "premier-league",
+    "leagueName": "פרמייר ליג",
+    "year": 2006,
+    "type": "home",
+    "typeName": "בית",
+    "isWorldCupSpecial": false,
+    "images": [
+      "arsenal-retro-2004.jpg"
+    ],
+    "sizes": ["S", "M", "L"],
+    "featured": false,
+    "tags": ["רטרו"]
+  },
+  {
+    "id": "premier-league-liverpool-home-2025",
+    "name": "חולצת ליברפול בית 2024/25",
+    "team": "ליברפול",
+    "teamEn": "Liverpool",
+    "league": "premier-league",
+    "leagueName": "פרמייר ליג",
+    "year": 2025,
+    "type": "home",
+    "typeName": "בית",
+    "isWorldCupSpecial": false,
+    "images": [
+      "liverpool-home-2025.jpg"
+    ],
+    "sizes": ["S", "M", "L", "XL", "XXL"],
+    "featured": true,
+    "tags": ["חדש", "פופולרי"]
+  },
+  {
+    "id": "premier-league-liverpool-away-2025",
+    "name": "חולצת ליברפול חוץ 2024/25",
+    "team": "ליברפול",
+    "teamEn": "Liverpool",
+    "league": "premier-league",
+    "leagueName": "פרמייר ליג",
+    "year": 2025,
+    "type": "away",
+    "typeName": "חוץ",
+    "isWorldCupSpecial": false,
+    "images": [
+      "liverpool-away-2025.jpg"
+    ],
+    "sizes": ["S", "M", "L", "XL"],
+    "featured": false,
+    "tags": ["חדש"]
+  },
+  {
+    "id": "premier-league-liverpool-third-2025",
+    "name": "חולצת ליברפול שלישית 2024/25",
+    "team": "ליברפול",
+    "teamEn": "Liverpool",
+    "league": "premier-league",
+    "leagueName": "פרמייר ליג",
+    "year": 2025,
+    "type": "third",
+    "typeName": "שלישית",
+    "isWorldCupSpecial": false,
+    "images": [
+      "liverpool-third-2025.jpg"
+    ],
+    "sizes": ["S", "M", "L", "XL"],
+    "featured": false,
+    "tags": ["חדש"]
+  },
+  {
+    "id": "premier-league-liverpool-retro-2006",
+    "name": "חולצת ליברפול רטרו קלאסית",
+    "team": "ליברפול",
+    "teamEn": "Liverpool",
+    "league": "premier-league",
+    "leagueName": "פרמייר ליג",
+    "year": 2006,
+    "type": "home",
+    "typeName": "בית",
+    "isWorldCupSpecial": false,
+    "images": [
+      "liverpool-retro.jpg"
+    ],
+    "sizes": ["S", "M", "L"],
+    "featured": false,
+    "tags": ["רטרו"]
+  },
+  {
+    "id": "premier-league-chelsea-home-2025",
+    "name": "חולצת צ'לסי בית 2024/25",
+    "team": "צ'לסי",
+    "teamEn": "Chelsea",
+    "league": "premier-league",
+    "leagueName": "פרמייר ליג",
+    "year": 2025,
+    "type": "home",
+    "typeName": "בית",
+    "isWorldCupSpecial": false,
+    "images": [
+      "chelsea-home-2025.jpg"
+    ],
+    "sizes": ["S", "M", "L", "XL", "XXL"],
+    "featured": true,
+    "tags": ["חדש", "פופולרי"]
+  },
+  {
+    "id": "premier-league-chelsea-away-2025",
+    "name": "חולצת צ'לסי חוץ 2024/25",
+    "team": "צ'לסי",
+    "teamEn": "Chelsea",
+    "league": "premier-league",
+    "leagueName": "פרמייר ליג",
+    "year": 2025,
+    "type": "away",
+    "typeName": "חוץ",
+    "isWorldCupSpecial": false,
+    "images": [
+      "chelsea-away-2025.jpg"
+    ],
+    "sizes": ["S", "M", "L", "XL"],
+    "featured": false,
+    "tags": ["חדש"]
+  },
+  {
+    "id": "premier-league-chelsea-third-2025",
+    "name": "חולצת צ'לסי שלישית 2024/25",
+    "team": "צ'לסי",
+    "teamEn": "Chelsea",
+    "league": "premier-league",
+    "leagueName": "פרמייר ליג",
+    "year": 2025,
+    "type": "third",
+    "typeName": "שלישית",
+    "isWorldCupSpecial": false,
+    "images": [
+      "chelsea-third-2025.jpg"
+    ],
+    "sizes": ["S", "M", "L", "XL"],
+    "featured": false,
+    "tags": ["חדש"]
+  },
+  {
+    "id": "premier-league-chelsea-retro-2006",
+    "name": "חולצת צ'לסי רטרו קלאסית",
+    "team": "צ'לסי",
+    "teamEn": "Chelsea",
+    "league": "premier-league",
+    "leagueName": "פרמייר ליג",
+    "year": 2006,
+    "type": "home",
+    "typeName": "בית",
+    "isWorldCupSpecial": false,
+    "images": [
+      "chelsea-retro.jpg"
+    ],
+    "sizes": ["S", "M", "L"],
+    "featured": false,
+    "tags": ["רטרו"]
+  },
+  {
+    "id": "premier-league-manutd-home-2025",
+    "name": "חולצת מנצ'סטר יונייטד בית 2024/25",
+    "team": "מנצ'סטר יונייטד",
+    "teamEn": "Manchester United",
+    "league": "premier-league",
+    "leagueName": "פרמייר ליג",
+    "year": 2025,
+    "type": "home",
+    "typeName": "בית",
+    "isWorldCupSpecial": false,
+    "images": [
+      "manutd-home-2025.jpg"
+    ],
+    "sizes": ["S", "M", "L", "XL", "XXL"],
+    "featured": true,
+    "tags": ["חדש", "פופולרי"]
+  },
+  {
+    "id": "premier-league-manutd-away-2025",
+    "name": "חולצת מנצ'סטר יונייטד חוץ 2024/25",
+    "team": "מנצ'סטר יונייטד",
+    "teamEn": "Manchester United",
+    "league": "premier-league",
+    "leagueName": "פרמייר ליג",
+    "year": 2025,
+    "type": "away",
+    "typeName": "חוץ",
+    "isWorldCupSpecial": false,
+    "images": [
+      "manutd-away-2025.jpg"
+    ],
+    "sizes": ["S", "M", "L", "XL"],
+    "featured": false,
+    "tags": ["חדש"]
+  },
+  {
+    "id": "premier-league-manutd-third-2025",
+    "name": "חולצת מנצ'סטר יונייטד שלישית 2024/25",
+    "team": "מנצ'סטר יונייטד",
+    "teamEn": "Manchester United",
+    "league": "premier-league",
+    "leagueName": "פרמייר ליג",
+    "year": 2025,
+    "type": "third",
+    "typeName": "שלישית",
+    "isWorldCupSpecial": false,
+    "images": [
+      "manutd-third-2025.jpg"
+    ],
+    "sizes": ["S", "M", "L", "XL"],
+    "featured": false,
+    "tags": ["חדש"]
+  },
+  {
+    "id": "premier-league-manutd-retro-2006",
+    "name": "חולצת מנצ'סטר יונייטד רטרו 1999",
+    "team": "מנצ'סטר יונייטד",
+    "teamEn": "Manchester United",
+    "league": "premier-league",
+    "leagueName": "פרמייר ליג",
+    "year": 2006,
+    "type": "home",
+    "typeName": "בית",
+    "isWorldCupSpecial": false,
+    "images": [
+      "manutd-retro-1999.jpg"
+    ],
+    "sizes": ["S", "M", "L"],
+    "featured": false,
+    "tags": ["רטרו"]
+  },
+  {
+    "id": "premier-league-tottenham-home-2025",
+    "name": "חולצת טוטנהאם בית 2024/25",
+    "team": "טוטנהאם",
+    "teamEn": "Tottenham",
+    "league": "premier-league",
+    "leagueName": "פרמייר ליג",
+    "year": 2025,
+    "type": "home",
+    "typeName": "בית",
+    "isWorldCupSpecial": false,
+    "images": [
+      "tottenham-home-2025.jpg"
+    ],
+    "sizes": ["S", "M", "L", "XL", "XXL"],
+    "featured": true,
+    "tags": ["חדש", "פופולרי"]
+  },
+  {
+    "id": "premier-league-tottenham-away-2025",
+    "name": "חולצת טוטנהאם חוץ 2024/25",
+    "team": "טוטנהאם",
+    "teamEn": "Tottenham",
+    "league": "premier-league",
+    "leagueName": "פרמייר ליג",
+    "year": 2025,
+    "type": "away",
+    "typeName": "חוץ",
+    "isWorldCupSpecial": false,
+    "images": [
+      "tottenham-away-2025.jpg"
+    ],
+    "sizes": ["S", "M", "L", "XL"],
+    "featured": false,
+    "tags": ["חדש"]
+  },
+  {
+    "id": "premier-league-tottenham-third-2025",
+    "name": "חולצת טוטנהאם שלישית 2024/25",
+    "team": "טוטנהאם",
+    "teamEn": "Tottenham",
+    "league": "premier-league",
+    "leagueName": "פרמייר ליג",
+    "year": 2025,
+    "type": "third",
+    "typeName": "שלישית",
+    "isWorldCupSpecial": false,
+    "images": [
+      "tottenham-third-2025.jpg"
+    ],
+    "sizes": ["S", "M", "L", "XL"],
+    "featured": false,
+    "tags": ["חדש"]
+  },
+  {
+    "id": "premier-league-tottenham-retro-2006",
+    "name": "חולצת טוטנהאם רטרו קלאסית",
+    "team": "טוטנהאם",
+    "teamEn": "Tottenham",
+    "league": "premier-league",
+    "leagueName": "פרמייר ליג",
+    "year": 2006,
+    "type": "home",
+    "typeName": "בית",
+    "isWorldCupSpecial": false,
+    "images": [
+      "tottenham-retro.jpg"
+    ],
+    "sizes": ["S", "M", "L"],
+    "featured": false,
+    "tags": ["רטרו"]
+  },
+  {
+    "id": "la-liga-realmadrid-home-2025",
+    "name": "חולצת ריאל מדריד בית 2024/25",
+    "team": "ריאל מדריד",
+    "teamEn": "Real Madrid",
+    "league": "la-liga",
+    "leagueName": "לה ליגה",
+    "year": 2025,
+    "type": "home",
+    "typeName": "בית",
+    "isWorldCupSpecial": false,
+    "images": [
+      "realmadrid-home-2025.jpg"
+    ],
+    "sizes": ["S", "M", "L", "XL", "XXL"],
+    "featured": true,
+    "tags": ["חדש", "פופולרי"]
+  },
+  {
+    "id": "la-liga-realmadrid-away-2025",
+    "name": "חולצת ריאל מדריד חוץ 2024/25",
+    "team": "ריאל מדריד",
+    "teamEn": "Real Madrid",
+    "league": "la-liga",
+    "leagueName": "לה ליגה",
+    "year": 2025,
+    "type": "away",
+    "typeName": "חוץ",
+    "isWorldCupSpecial": false,
+    "images": [
+      "realmadrid-away-2025.jpg"
+    ],
+    "sizes": ["S", "M", "L", "XL"],
+    "featured": false,
+    "tags": ["חדש"]
+  },
+  {
+    "id": "la-liga-realmadrid-third-2025",
+    "name": "חולצת ריאל מדריד שלישית 2024/25",
+    "team": "ריאל מדריד",
+    "teamEn": "Real Madrid",
+    "league": "la-liga",
+    "leagueName": "לה ליגה",
+    "year": 2025,
+    "type": "third",
+    "typeName": "שלישית",
+    "isWorldCupSpecial": false,
+    "images": [
+      "realmadrid-third-2025.jpg"
+    ],
+    "sizes": ["S", "M", "L", "XL"],
+    "featured": false,
+    "tags": ["חדש"]
+  },
+  {
+    "id": "la-liga-realmadrid-retro-2006",
+    "name": "חולצת ריאל מדריד רטרו קלאסית",
+    "team": "ריאל מדריד",
+    "teamEn": "Real Madrid",
+    "league": "la-liga",
+    "leagueName": "לה ליגה",
+    "year": 2006,
+    "type": "home",
+    "typeName": "בית",
+    "isWorldCupSpecial": false,
+    "images": [
+      "realmadrid-retro.jpg"
+    ],
+    "sizes": ["S", "M", "L"],
+    "featured": false,
+    "tags": ["רטרו"]
+  },
+  {
+    "id": "la-liga-barcelona-home-2025",
+    "name": "חולצת ברצלונה בית 2024/25",
+    "team": "ברצלונה",
+    "teamEn": "Barcelona",
+    "league": "la-liga",
+    "leagueName": "לה ליגה",
+    "year": 2025,
+    "type": "home",
+    "typeName": "בית",
+    "isWorldCupSpecial": false,
+    "images": [
+      "barcelona-home-2025.jpg"
+    ],
+    "sizes": ["S", "M", "L", "XL", "XXL"],
+    "featured": true,
+    "tags": ["חדש", "פופולרי"]
+  },
+  {
+    "id": "la-liga-barcelona-away-2025",
+    "name": "חולצת ברצלונה חוץ 2024/25",
+    "team": "ברצלונה",
+    "teamEn": "Barcelona",
+    "league": "la-liga",
+    "leagueName": "לה ליגה",
+    "year": 2025,
+    "type": "away",
+    "typeName": "חוץ",
+    "isWorldCupSpecial": false,
+    "images": [
+      "barcelona-away-2025.jpg"
+    ],
+    "sizes": ["S", "M", "L", "XL"],
+    "featured": false,
+    "tags": ["חדש"]
+  },
+  {
+    "id": "la-liga-barcelona-third-2025",
+    "name": "חולצת ברצלונה שלישית 2024/25",
+    "team": "ברצלונה",
+    "teamEn": "Barcelona",
+    "league": "la-liga",
+    "leagueName": "לה ליגה",
+    "year": 2025,
+    "type": "third",
+    "typeName": "שלישית",
+    "isWorldCupSpecial": false,
+    "images": [
+      "barcelona-third-2025.jpg"
+    ],
+    "sizes": ["S", "M", "L", "XL"],
+    "featured": false,
+    "tags": ["חדש"]
+  },
+  {
+    "id": "la-liga-barcelona-retro-2006",
+    "name": "חולצת ברצלונה רטרו קלאסית",
+    "team": "ברצלונה",
+    "teamEn": "Barcelona",
+    "league": "la-liga",
+    "leagueName": "לה ליגה",
+    "year": 2006,
+    "type": "home",
+    "typeName": "בית",
+    "isWorldCupSpecial": false,
+    "images": [
+      "barcelona-retro-2006.jpg"
+    ],
+    "sizes": ["S", "M", "L"],
+    "featured": false,
+    "tags": ["רטרו"]
+  },
+  {
+    "id": "la-liga-atletico-home-2025",
+    "name": "חולצת אתלטיקו מדריד בית 2024/25",
+    "team": "אתלטיקו מדריד",
+    "teamEn": "Atletico Madrid",
+    "league": "la-liga",
+    "leagueName": "לה ליגה",
+    "year": 2025,
+    "type": "home",
+    "typeName": "בית",
+    "isWorldCupSpecial": false,
+    "images": [
+      "atletico-home-2025.jpg"
+    ],
+    "sizes": ["S", "M", "L", "XL", "XXL"],
+    "featured": true,
+    "tags": ["חדש", "פופולרי"]
+  },
+  {
+    "id": "la-liga-atletico-away-2025",
+    "name": "חולצת אתלטיקו מדריד חוץ 2024/25",
+    "team": "אתלטיקו מדריד",
+    "teamEn": "Atletico Madrid",
+    "league": "la-liga",
+    "leagueName": "לה ליגה",
+    "year": 2025,
+    "type": "away",
+    "typeName": "חוץ",
+    "isWorldCupSpecial": false,
+    "images": [
+      "atletico-away-2025.jpg"
+    ],
+    "sizes": ["S", "M", "L", "XL"],
+    "featured": false,
+    "tags": ["חדש"]
+  },
+  {
+    "id": "la-liga-atletico-third-2025",
+    "name": "חולצת אתלטיקו מדריד שלישית 2024/25",
+    "team": "אתלטיקו מדריד",
+    "teamEn": "Atletico Madrid",
+    "league": "la-liga",
+    "leagueName": "לה ליגה",
+    "year": 2025,
+    "type": "third",
+    "typeName": "שלישית",
+    "isWorldCupSpecial": false,
+    "images": [
+      "atletico-third-2025.jpg"
+    ],
+    "sizes": ["S", "M", "L", "XL"],
+    "featured": false,
+    "tags": ["חדש"]
+  },
+  {
+    "id": "la-liga-atletico-retro-2006",
+    "name": "חולצת אתלטיקו מדריד רטרו קלאסית",
+    "team": "אתלטיקו מדריד",
+    "teamEn": "Atletico Madrid",
+    "league": "la-liga",
+    "leagueName": "לה ליגה",
+    "year": 2006,
+    "type": "home",
+    "typeName": "בית",
+    "isWorldCupSpecial": false,
+    "images": [
+      "atletico-retro.jpg"
+    ],
+    "sizes": ["S", "M", "L"],
+    "featured": false,
+    "tags": ["רטרו"]
+  },
+  {
+    "id": "serie-a-inter-home-2025",
+    "name": "חולצת אינטר מילאן בית 2024/25",
+    "team": "אינטר מילאן",
+    "teamEn": "Inter Milan",
+    "league": "serie-a",
+    "leagueName": "סריה A",
+    "year": 2025,
+    "type": "home",
+    "typeName": "בית",
+    "isWorldCupSpecial": false,
+    "images": [
+      "inter-home-2025.jpg"
+    ],
+    "sizes": ["S", "M", "L", "XL", "XXL"],
+    "featured": true,
+    "tags": ["חדש", "פופולרי"]
+  },
+  {
+    "id": "serie-a-inter-away-2025",
+    "name": "חולצת אינטר מילאן חוץ 2024/25",
+    "team": "אינטר מילאן",
+    "teamEn": "Inter Milan",
+    "league": "serie-a",
+    "leagueName": "סריה A",
+    "year": 2025,
+    "type": "away",
+    "typeName": "חוץ",
+    "isWorldCupSpecial": false,
+    "images": [
+      "inter-away-2025.jpg"
+    ],
+    "sizes": ["S", "M", "L", "XL"],
+    "featured": false,
+    "tags": ["חדש"]
+  },
+  {
+    "id": "serie-a-inter-third-2025",
+    "name": "חולצת אינטר מילאן שלישית 2024/25",
+    "team": "אינטר מילאן",
+    "teamEn": "Inter Milan",
+    "league": "serie-a",
+    "leagueName": "סריה A",
+    "year": 2025,
+    "type": "third",
+    "typeName": "שלישית",
+    "isWorldCupSpecial": false,
+    "images": [
+      "inter-third-2025.jpg"
+    ],
+    "sizes": ["S", "M", "L", "XL"],
+    "featured": false,
+    "tags": ["חדש"]
+  },
+  {
+    "id": "serie-a-inter-retro-2006",
+    "name": "חולצת אינטר מילאן רטרו קלאסית",
+    "team": "אינטר מילאן",
+    "teamEn": "Inter Milan",
+    "league": "serie-a",
+    "leagueName": "סריה A",
+    "year": 2006,
+    "type": "home",
+    "typeName": "בית",
+    "isWorldCupSpecial": false,
+    "images": [
+      "inter-retro.jpg"
+    ],
+    "sizes": ["S", "M", "L"],
+    "featured": false,
+    "tags": ["רטרו"]
+  },
+  {
+    "id": "serie-a-acmilan-home-2025",
+    "name": "חולצת מילאן בית 2024/25",
+    "team": "מילאן",
+    "teamEn": "AC Milan",
+    "league": "serie-a",
+    "leagueName": "סריה A",
+    "year": 2025,
+    "type": "home",
+    "typeName": "בית",
+    "isWorldCupSpecial": false,
+    "images": [
+      "acmilan-home-2025.jpg"
+    ],
+    "sizes": ["S", "M", "L", "XL", "XXL"],
+    "featured": true,
+    "tags": ["חדש", "פופולרי"]
+  },
+  {
+    "id": "serie-a-acmilan-away-2025",
+    "name": "חולצת מילאן חוץ 2024/25",
+    "team": "מילאן",
+    "teamEn": "AC Milan",
+    "league": "serie-a",
+    "leagueName": "סריה A",
+    "year": 2025,
+    "type": "away",
+    "typeName": "חוץ",
+    "isWorldCupSpecial": false,
+    "images": [
+      "acmilan-away-2025.jpg"
+    ],
+    "sizes": ["S", "M", "L", "XL"],
+    "featured": false,
+    "tags": ["חדש"]
+  },
+  {
+    "id": "serie-a-acmilan-third-2025",
+    "name": "חולצת מילאן שלישית 2024/25",
+    "team": "מילאן",
+    "teamEn": "AC Milan",
+    "league": "serie-a",
+    "leagueName": "סריה A",
+    "year": 2025,
+    "type": "third",
+    "typeName": "שלישית",
+    "isWorldCupSpecial": false,
+    "images": [
+      "acmilan-third-2025.jpg"
+    ],
+    "sizes": ["S", "M", "L", "XL"],
+    "featured": false,
+    "tags": ["חדש"]
+  },
+  {
+    "id": "serie-a-acmilan-retro-2006",
+    "name": "חולצת מילאן רטרו קלאסית",
+    "team": "מילאן",
+    "teamEn": "AC Milan",
+    "league": "serie-a",
+    "leagueName": "סריה A",
+    "year": 2006,
+    "type": "home",
+    "typeName": "בית",
+    "isWorldCupSpecial": false,
+    "images": [
+      "acmilan-retro-2007.jpg"
+    ],
+    "sizes": ["S", "M", "L"],
+    "featured": false,
+    "tags": ["רטרו"]
+  },
+  {
+    "id": "serie-a-juventus-home-2025",
+    "name": "חולצת יובנטוס בית 2024/25",
+    "team": "יובנטוס",
+    "teamEn": "Juventus",
+    "league": "serie-a",
+    "leagueName": "סריה A",
+    "year": 2025,
+    "type": "home",
+    "typeName": "בית",
+    "isWorldCupSpecial": false,
+    "images": [
+      "juventus-home-2025.jpg"
+    ],
+    "sizes": ["S", "M", "L", "XL", "XXL"],
+    "featured": true,
+    "tags": ["חדש", "פופולרי"]
+  },
+  {
+    "id": "serie-a-juventus-away-2025",
+    "name": "חולצת יובנטוס חוץ 2024/25",
+    "team": "יובנטוס",
+    "teamEn": "Juventus",
+    "league": "serie-a",
+    "leagueName": "סריה A",
+    "year": 2025,
+    "type": "away",
+    "typeName": "חוץ",
+    "isWorldCupSpecial": false,
+    "images": [
+      "juventus-away-2025.jpg"
+    ],
+    "sizes": ["S", "M", "L", "XL"],
+    "featured": false,
+    "tags": ["חדש"]
+  },
+  {
+    "id": "serie-a-juventus-third-2025",
+    "name": "חולצת יובנטוס שלישית 2024/25",
+    "team": "יובנטוס",
+    "teamEn": "Juventus",
+    "league": "serie-a",
+    "leagueName": "סריה A",
+    "year": 2025,
+    "type": "third",
+    "typeName": "שלישית",
+    "isWorldCupSpecial": false,
+    "images": [
+      "juventus-third-2025.jpg"
+    ],
+    "sizes": ["S", "M", "L", "XL"],
+    "featured": false,
+    "tags": ["חדש"]
+  },
+  {
+    "id": "serie-a-juventus-retro-2006",
+    "name": "חולצת יובנטוס רטרו קלאסית",
+    "team": "יובנטוס",
+    "teamEn": "Juventus",
+    "league": "serie-a",
+    "leagueName": "סריה A",
+    "year": 2006,
+    "type": "home",
+    "typeName": "בית",
+    "isWorldCupSpecial": false,
+    "images": [
+      "juventus-retro.jpg"
+    ],
+    "sizes": ["S", "M", "L"],
+    "featured": false,
+    "tags": ["רטרו"]
+  },
+  {
+    "id": "serie-a-napoli-home-2025",
+    "name": "חולצת נאפולי בית 2024/25",
+    "team": "נאפולי",
+    "teamEn": "Napoli",
+    "league": "serie-a",
+    "leagueName": "סריה A",
+    "year": 2025,
+    "type": "home",
+    "typeName": "בית",
+    "isWorldCupSpecial": false,
+    "images": [
+      "napoli-home-2025.jpg"
+    ],
+    "sizes": ["S", "M", "L", "XL", "XXL"],
+    "featured": true,
+    "tags": ["חדש", "פופולרי"]
+  },
+  {
+    "id": "serie-a-napoli-away-2025",
+    "name": "חולצת נאפולי חוץ 2024/25",
+    "team": "נאפולי",
+    "teamEn": "Napoli",
+    "league": "serie-a",
+    "leagueName": "סריה A",
+    "year": 2025,
+    "type": "away",
+    "typeName": "חוץ",
+    "isWorldCupSpecial": false,
+    "images": [
+      "napoli-away-2025.jpg"
+    ],
+    "sizes": ["S", "M", "L", "XL"],
+    "featured": false,
+    "tags": ["חדש"]
+  },
+  {
+    "id": "serie-a-napoli-third-2025",
+    "name": "חולצת נאפולי שלישית 2024/25",
+    "team": "נאפולי",
+    "teamEn": "Napoli",
+    "league": "serie-a",
+    "leagueName": "סריה A",
+    "year": 2025,
+    "type": "third",
+    "typeName": "שלישית",
+    "isWorldCupSpecial": false,
+    "images": [
+      "napoli-third-2025.jpg"
+    ],
+    "sizes": ["S", "M", "L", "XL"],
+    "featured": false,
+    "tags": ["חדש"]
+  },
+  {
+    "id": "serie-a-napoli-retro-2006",
+    "name": "חולצת נאפולי רטרו קלאסית",
+    "team": "נאפולי",
+    "teamEn": "Napoli",
+    "league": "serie-a",
+    "leagueName": "סריה A",
+    "year": 2006,
+    "type": "home",
+    "typeName": "בית",
+    "isWorldCupSpecial": false,
+    "images": [
+      "napoli-retro.jpg"
+    ],
+    "sizes": ["S", "M", "L"],
+    "featured": false,
+    "tags": ["רטרו"]
+  },
+  {
+    "id": "bundesliga-bayern-home-2025",
+    "name": "חולצת באיירן מינכן בית 2024/25",
+    "team": "באיירן מינכן",
+    "teamEn": "Bayern Munich",
+    "league": "bundesliga",
+    "leagueName": "בונדסליגה",
+    "year": 2025,
+    "type": "home",
+    "typeName": "בית",
+    "isWorldCupSpecial": false,
+    "images": [
+      "bayern-home-2025.jpg"
+    ],
+    "sizes": ["S", "M", "L", "XL", "XXL"],
+    "featured": true,
+    "tags": ["חדש", "פופולרי"]
+  },
+  {
+    "id": "bundesliga-bayern-away-2025",
+    "name": "חולצת באיירן מינכן חוץ 2024/25",
+    "team": "באיירן מינכן",
+    "teamEn": "Bayern Munich",
+    "league": "bundesliga",
+    "leagueName": "בונדסליגה",
+    "year": 2025,
+    "type": "away",
+    "typeName": "חוץ",
+    "isWorldCupSpecial": false,
+    "images": [
+      "bayern-away-2025.jpg"
+    ],
+    "sizes": ["S", "M", "L", "XL"],
+    "featured": false,
+    "tags": ["חדש"]
+  },
+  {
+    "id": "bundesliga-bayern-third-2025",
+    "name": "חולצת באיירן מינכן שלישית 2024/25",
+    "team": "באיירן מינכן",
+    "teamEn": "Bayern Munich",
+    "league": "bundesliga",
+    "leagueName": "בונדסליגה",
+    "year": 2025,
+    "type": "third",
+    "typeName": "שלישית",
+    "isWorldCupSpecial": false,
+    "images": [
+      "bayern-third-2025.jpg"
+    ],
+    "sizes": ["S", "M", "L", "XL"],
+    "featured": false,
+    "tags": ["חדש"]
+  },
+  {
+    "id": "bundesliga-bayern-retro-2006",
+    "name": "חולצת באיירן מינכן רטרו קלאסית",
+    "team": "באיירן מינכן",
+    "teamEn": "Bayern Munich",
+    "league": "bundesliga",
+    "leagueName": "בונדסליגה",
+    "year": 2006,
+    "type": "home",
+    "typeName": "בית",
+    "isWorldCupSpecial": false,
+    "images": [
+      "bayern-retro.jpg"
+    ],
+    "sizes": ["S", "M", "L"],
+    "featured": false,
+    "tags": ["רטרו"]
+  },
+  {
+    "id": "bundesliga-dortmund-home-2025",
+    "name": "חולצת בורוסיה דורטמונד בית 2024/25",
+    "team": "בורוסיה דורטמונד",
+    "teamEn": "Borussia Dortmund",
+    "league": "bundesliga",
+    "leagueName": "בונדסליגה",
+    "year": 2025,
+    "type": "home",
+    "typeName": "בית",
+    "isWorldCupSpecial": false,
+    "images": [
+      "dortmund-home-2025.jpg"
+    ],
+    "sizes": ["S", "M", "L", "XL", "XXL"],
+    "featured": true,
+    "tags": ["חדש", "פופולרי"]
+  },
+  {
+    "id": "bundesliga-dortmund-away-2025",
+    "name": "חולצת בורוסיה דורטמונד חוץ 2024/25",
+    "team": "בורוסיה דורטמונד",
+    "teamEn": "Borussia Dortmund",
+    "league": "bundesliga",
+    "leagueName": "בונדסליגה",
+    "year": 2025,
+    "type": "away",
+    "typeName": "חוץ",
+    "isWorldCupSpecial": false,
+    "images": [
+      "dortmund-away-2025.jpg"
+    ],
+    "sizes": ["S", "M", "L", "XL"],
+    "featured": false,
+    "tags": ["חדש"]
+  },
+  {
+    "id": "bundesliga-dortmund-third-2025",
+    "name": "חולצת בורוסיה דורטמונד שלישית 2024/25",
+    "team": "בורוסיה דורטמונד",
+    "teamEn": "Borussia Dortmund",
+    "league": "bundesliga",
+    "leagueName": "בונדסליגה",
+    "year": 2025,
+    "type": "third",
+    "typeName": "שלישית",
+    "isWorldCupSpecial": false,
+    "images": [
+      "dortmund-third-2025.jpg"
+    ],
+    "sizes": ["S", "M", "L", "XL"],
+    "featured": false,
+    "tags": ["חדש"]
+  },
+  {
+    "id": "bundesliga-dortmund-retro-2006",
+    "name": "חולצת בורוסיה דורטמונד רטרו קלאסית",
+    "team": "בורוסיה דורטמונד",
+    "teamEn": "Borussia Dortmund",
+    "league": "bundesliga",
+    "leagueName": "בונדסליגה",
+    "year": 2006,
+    "type": "home",
+    "typeName": "בית",
+    "isWorldCupSpecial": false,
+    "images": [
+      "dortmund-retro.jpg"
+    ],
+    "sizes": ["S", "M", "L"],
+    "featured": false,
+    "tags": ["רטרו"]
+  },
+  {
+    "id": "bundesliga-leverkusen-home-2025",
+    "name": "חולצת באייר לברקוזן בית 2024/25",
+    "team": "באייר לברקוזן",
+    "teamEn": "Bayer Leverkusen",
+    "league": "bundesliga",
+    "leagueName": "בונדסליגה",
+    "year": 2025,
+    "type": "home",
+    "typeName": "בית",
+    "isWorldCupSpecial": false,
+    "images": [
+      "leverkusen-home-2025.jpg"
+    ],
+    "sizes": ["S", "M", "L", "XL", "XXL"],
+    "featured": true,
+    "tags": ["חדש", "פופולרי"]
+  },
+  {
+    "id": "bundesliga-leverkusen-away-2025",
+    "name": "חולצת באייר לברקוזן חוץ 2024/25",
+    "team": "באייר לברקוזן",
+    "teamEn": "Bayer Leverkusen",
+    "league": "bundesliga",
+    "leagueName": "בונדסליגה",
+    "year": 2025,
+    "type": "away",
+    "typeName": "חוץ",
+    "isWorldCupSpecial": false,
+    "images": [
+      "leverkusen-away-2025.jpg"
+    ],
+    "sizes": ["S", "M", "L", "XL"],
+    "featured": false,
+    "tags": ["חדש"]
+  },
+  {
+    "id": "bundesliga-leverkusen-third-2025",
+    "name": "חולצת באייר לברקוזן שלישית 2024/25",
+    "team": "באייר לברקוזן",
+    "teamEn": "Bayer Leverkusen",
+    "league": "bundesliga",
+    "leagueName": "בונדסליגה",
+    "year": 2025,
+    "type": "third",
+    "typeName": "שלישית",
+    "isWorldCupSpecial": false,
+    "images": [
+      "leverkusen-third-2025.jpg"
+    ],
+    "sizes": ["S", "M", "L", "XL"],
+    "featured": false,
+    "tags": ["חדש"]
+  },
+  {
+    "id": "bundesliga-leverkusen-retro-2006",
+    "name": "חולצת באייר לברקוזן רטרו קלאסית",
+    "team": "באייר לברקוזן",
+    "teamEn": "Bayer Leverkusen",
+    "league": "bundesliga",
+    "leagueName": "בונדסליגה",
+    "year": 2006,
+    "type": "home",
+    "typeName": "בית",
+    "isWorldCupSpecial": false,
+    "images": [
+      "leverkusen-retro.jpg"
+    ],
+    "sizes": ["S", "M", "L"],
+    "featured": false,
+    "tags": ["רטרו"]
+  },
+  {
+    "id": "ligue-1-psg-home-2025",
+    "name": "חולצת פריז סן ז'רמן בית 2024/25",
+    "team": "פריז סן ז'רמן",
+    "teamEn": "PSG",
+    "league": "ligue-1",
+    "leagueName": "ליג 1",
+    "year": 2025,
+    "type": "home",
+    "typeName": "בית",
+    "isWorldCupSpecial": false,
+    "images": [
+      "psg-home-2025.jpg"
+    ],
+    "sizes": ["S", "M", "L", "XL", "XXL"],
+    "featured": true,
+    "tags": ["חדש", "פופולרי"]
+  },
+  {
+    "id": "ligue-1-psg-away-2025",
+    "name": "חולצת פריז סן ז'רמן חוץ 2024/25",
+    "team": "פריז סן ז'רמן",
+    "teamEn": "PSG",
+    "league": "ligue-1",
+    "leagueName": "ליג 1",
+    "year": 2025,
+    "type": "away",
+    "typeName": "חוץ",
+    "isWorldCupSpecial": false,
+    "images": [
+      "psg-away-2025.jpg"
+    ],
+    "sizes": ["S", "M", "L", "XL"],
+    "featured": false,
+    "tags": ["חדש"]
+  },
+  {
+    "id": "ligue-1-psg-third-2025",
+    "name": "חולצת פריז סן ז'רמן שלישית 2024/25",
+    "team": "פריז סן ז'רמן",
+    "teamEn": "PSG",
+    "league": "ligue-1",
+    "leagueName": "ליג 1",
+    "year": 2025,
+    "type": "third",
+    "typeName": "שלישית",
+    "isWorldCupSpecial": false,
+    "images": [
+      "psg-third-2025.jpg"
+    ],
+    "sizes": ["S", "M", "L", "XL"],
+    "featured": false,
+    "tags": ["חדש"]
+  },
+  {
+    "id": "ligue-1-psg-retro-2006",
+    "name": "חולצת פריז סן ז'רמן רטרו קלאסית",
+    "team": "פריז סן ז'רמן",
+    "teamEn": "PSG",
+    "league": "ligue-1",
+    "leagueName": "ליג 1",
+    "year": 2006,
+    "type": "home",
+    "typeName": "בית",
+    "isWorldCupSpecial": false,
+    "images": [
+      "psg-retro.jpg"
+    ],
+    "sizes": ["S", "M", "L"],
+    "featured": false,
+    "tags": ["רטרו"]
+  },
+  {
+    "id": "wc2026-argentina-home",
+    "name": "חולצת נבחרת ארגנטינה בית 2026",
+    "team": "ארגנטינה",
+    "teamEn": "Argentina",
+    "league": "world-cup",
+    "leagueName": "גביע העולם",
+    "year": 2026,
+    "type": "home",
+    "typeName": "בית",
+    "isWorldCupSpecial": true,
+    "images": [
+      "argentina-home-2026.jpg"
+    ],
+    "sizes": ["S", "M", "L", "XL", "XXL"],
+    "featured": true,
+    "tags": ["מונדיאל", "הנבחרת", "פופולרי"]
+  },
+  {
+    "id": "wc2026-argentina-away",
+    "name": "חולצת נבחרת ארגנטינה חוץ 2026",
+    "team": "ארגנטינה",
+    "teamEn": "Argentina",
+    "league": "world-cup",
+    "leagueName": "גביע העולם",
+    "year": 2026,
+    "type": "away",
+    "typeName": "חוץ",
+    "isWorldCupSpecial": true,
+    "images": [
+      "argentina-away-2026.jpg"
+    ],
+    "sizes": ["S", "M", "L", "XL"],
+    "featured": false,
+    "tags": ["מונדיאל", "הנבחרת"]
+  },
+  {
+    "id": "wc2026-brazil-home",
+    "name": "חולצת נבחרת ברזיל בית 2026",
+    "team": "ברזיל",
+    "teamEn": "Brazil",
+    "league": "world-cup",
+    "leagueName": "גביע העולם",
+    "year": 2026,
+    "type": "home",
+    "typeName": "בית",
+    "isWorldCupSpecial": true,
+    "images": [
+      "brazil-home-2026.jpg"
+    ],
+    "sizes": ["S", "M", "L", "XL", "XXL"],
+    "featured": true,
+    "tags": ["מונדיאל", "הנבחרת", "פופולרי"]
+  },
+  {
+    "id": "wc2026-brazil-away",
+    "name": "חולצת נבחרת ברזיל חוץ 2026",
+    "team": "ברזיל",
+    "teamEn": "Brazil",
+    "league": "world-cup",
+    "leagueName": "גביע העולם",
+    "year": 2026,
+    "type": "away",
+    "typeName": "חוץ",
+    "isWorldCupSpecial": true,
+    "images": [
+      "brazil-away-2026.jpg"
+    ],
+    "sizes": ["S", "M", "L", "XL"],
+    "featured": false,
+    "tags": ["מונדיאל", "הנבחרת"]
+  },
+  {
+    "id": "wc2026-france-home",
+    "name": "חולצת נבחרת צרפת בית 2026",
+    "team": "צרפת",
+    "teamEn": "France",
+    "league": "world-cup",
+    "leagueName": "גביע העולם",
+    "year": 2026,
+    "type": "home",
+    "typeName": "בית",
+    "isWorldCupSpecial": true,
+    "images": [
+      "france-home-2026.jpg"
+    ],
+    "sizes": ["S", "M", "L", "XL", "XXL"],
+    "featured": true,
+    "tags": ["מונדיאל", "הנבחרת", "פופולרי"]
+  },
+  {
+    "id": "wc2026-france-away",
+    "name": "חולצת נבחרת צרפת חוץ 2026",
+    "team": "צרפת",
+    "teamEn": "France",
+    "league": "world-cup",
+    "leagueName": "גביע העולם",
+    "year": 2026,
+    "type": "away",
+    "typeName": "חוץ",
+    "isWorldCupSpecial": true,
+    "images": [
+      "france-away-2026.jpg"
+    ],
+    "sizes": ["S", "M", "L", "XL"],
+    "featured": false,
+    "tags": ["מונדיאל", "הנבחרת"]
+  },
+  {
+    "id": "wc2026-germany-home",
+    "name": "חולצת נבחרת גרמניה בית 2026",
+    "team": "גרמניה",
+    "teamEn": "Germany",
+    "league": "world-cup",
+    "leagueName": "גביע העולם",
+    "year": 2026,
+    "type": "home",
+    "typeName": "בית",
+    "isWorldCupSpecial": true,
+    "images": [
+      "germany-home-2026.jpg"
+    ],
+    "sizes": ["S", "M", "L", "XL", "XXL"],
+    "featured": true,
+    "tags": ["מונדיאל", "הנבחרת", "פופולרי"]
+  },
+  {
+    "id": "wc2026-germany-away",
+    "name": "חולצת נבחרת גרמניה חוץ 2026",
+    "team": "גרמניה",
+    "teamEn": "Germany",
+    "league": "world-cup",
+    "leagueName": "גביע העולם",
+    "year": 2026,
+    "type": "away",
+    "typeName": "חוץ",
+    "isWorldCupSpecial": true,
+    "images": [
+      "germany-away-2026.jpg"
+    ],
+    "sizes": ["S", "M", "L", "XL"],
+    "featured": false,
+    "tags": ["מונדיאל", "הנבחרת"]
+  },
+  {
+    "id": "wc2026-spain-home",
+    "name": "חולצת נבחרת ספרד בית 2026",
+    "team": "ספרד",
+    "teamEn": "Spain",
+    "league": "world-cup",
+    "leagueName": "גביע העולם",
+    "year": 2026,
+    "type": "home",
+    "typeName": "בית",
+    "isWorldCupSpecial": true,
+    "images": [
+      "spain-home-2026.jpg"
+    ],
+    "sizes": ["S", "M", "L", "XL", "XXL"],
+    "featured": true,
+    "tags": ["מונדיאל", "הנבחרת", "פופולרי"]
+  },
+  {
+    "id": "wc2026-spain-away",
+    "name": "חולצת נבחרת ספרד חוץ 2026",
+    "team": "ספרד",
+    "teamEn": "Spain",
+    "league": "world-cup",
+    "leagueName": "גביע העולם",
+    "year": 2026,
+    "type": "away",
+    "typeName": "חוץ",
+    "isWorldCupSpecial": true,
+    "images": [
+      "spain-away-2026.jpg"
+    ],
+    "sizes": ["S", "M", "L", "XL"],
+    "featured": false,
+    "tags": ["מונדיאל", "הנבחרת"]
+  },
+  {
+    "id": "wc2026-england-home",
+    "name": "חולצת נבחרת אנגליה בית 2026",
+    "team": "אנגליה",
+    "teamEn": "England",
+    "league": "world-cup",
+    "leagueName": "גביע העולם",
+    "year": 2026,
+    "type": "home",
+    "typeName": "בית",
+    "isWorldCupSpecial": true,
+    "images": [
+      "england-home-2026.jpg"
+    ],
+    "sizes": ["S", "M", "L", "XL", "XXL"],
+    "featured": true,
+    "tags": ["מונדיאל", "הנבחרת", "פופולרי"]
+  },
+  {
+    "id": "wc2026-england-away",
+    "name": "חולצת נבחרת אנגליה חוץ 2026",
+    "team": "אנגליה",
+    "teamEn": "England",
+    "league": "world-cup",
+    "leagueName": "גביע העולם",
+    "year": 2026,
+    "type": "away",
+    "typeName": "חוץ",
+    "isWorldCupSpecial": true,
+    "images": [
+      "england-away-2026.jpg"
+    ],
+    "sizes": ["S", "M", "L", "XL"],
+    "featured": false,
+    "tags": ["מונדיאל", "הנבחרת"]
+  },
+  {
+    "id": "wc2026-portugal-home",
+    "name": "חולצת נבחרת פורטוגל בית 2026",
+    "team": "פורטוגל",
+    "teamEn": "Portugal",
+    "league": "world-cup",
+    "leagueName": "גביע העולם",
+    "year": 2026,
+    "type": "home",
+    "typeName": "בית",
+    "isWorldCupSpecial": true,
+    "images": [
+      "portugal-home-2026.jpg"
+    ],
+    "sizes": ["S", "M", "L", "XL", "XXL"],
+    "featured": true,
+    "tags": ["מונדיאל", "הנבחרת", "פופולרי"]
+  },
+  {
+    "id": "wc2026-portugal-away",
+    "name": "חולצת נבחרת פורטוגל חוץ 2026",
+    "team": "פורטוגל",
+    "teamEn": "Portugal",
+    "league": "world-cup",
+    "leagueName": "גביע העולם",
+    "year": 2026,
+    "type": "away",
+    "typeName": "חוץ",
+    "isWorldCupSpecial": true,
+    "images": [
+      "portugal-away-2026.jpg"
+    ],
+    "sizes": ["S", "M", "L", "XL"],
+    "featured": false,
+    "tags": ["מונדיאל", "הנבחרת"]
+  }
 ]
